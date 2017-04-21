@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input type="file" id='uploader'>
+</body>
+<script>
+  window.onload = function () {
+    var loader = document.querySelector('#uploader')
+    loader.onchange = function () {
+      var fData = new FormData()
+      var file = loader.files[0]
+      if (!file) return
+      fData.append('avatar', file)
+      var xhr = new XMLHttpRequest()
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          console.log('upload completed')
+        } else {
+          console.log('upload fail')
+        }
+      }
+
+      xhr.open('post', '/upload', true)
+      xhr.send(fData)
+    }
+
+
+  }
+</script>
+</html>

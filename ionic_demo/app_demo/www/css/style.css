@@ -1,0 +1,29 @@
+/* Empty. Add your own CSS if you like */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #f1f1f1;
+  font-family: "Helvetica", "Microsoft YaHei", sans-serif;
+  background-color: #000;
+}
+
+video {
+  width: 100%;
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  /*让视频充满整个video区域*/
+  object-fit: fill;
+}
+
+marquee {
+  width: 100%;
+  height: 10%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-size: 36px;
+  letter-spacing: 4px;
+}
