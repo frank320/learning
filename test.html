@@ -5,6 +5,13 @@
   <title>Title</title>
 </head>
 <body>
+<input type="text" id='btn'>
+<button>表单的值</button>
+<script>
+  document.querySelector('button').onclick = function () {
+    console.log(document.querySelector('#btn').value);
+  }
+</script>
 <script>
   //  window.onload = function () {
   //    var a = 1

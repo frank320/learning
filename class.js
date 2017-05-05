@@ -15,6 +15,7 @@ class Foo {
 const fo = new Foo('frank')
 fo.sayHi()
 console.log(fo.constructor === Foo.prototype.constructor)//true
+console.log(Foo.prototype.constructor)
 
 class Child extends Foo {
   constructor() {//会默然添加此方法
