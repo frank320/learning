@@ -49,4 +49,4 @@ foo()
 //   ../node_modules/baz.js
 //   ../node_modules/baz/index.js
 // 再上一级目录
-//ES6 模块之中，顶层的this指向undefined；CommonJS 模块的顶层this指向当前模块，这是两者的一个重大差异。
+//ES6 模块之中，顶层的this指向undefined；，这是两者的一个重大差异。CommonJS 模块的顶层this指向当前模块
