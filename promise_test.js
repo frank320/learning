@@ -78,13 +78,16 @@ setTimeout(() => {
 setTimeout(()=>{
   console.log('setTimeout')
 }) //下一轮事件循环开始执行
+
 setImmediate(() => {
   console.log('setImmediate')
 }) //下一轮事件循环开始执行
+
 Promise.resolve()
   .then(() => {
     console.log('then')
   })//本轮事件循环末尾执行
+
 process.nextTick(() => {
   console.log('nextTick')
 }) //主线程代码执行完后后立即执行
