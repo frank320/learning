@@ -1,11 +1,11 @@
 var path = require('path')
 var OpenBrowserPlugin = require('open-browser-webpack-plugin')
 module.exports = {
-  entry: [
-    'webpack/hot/dev-server',
-    'webpack-dev-server/client?http://localhost:8081',
-    path.resolve(__dirname, 'src/js/app.js')
-  ],
+  // entry: [
+  //   'webpack/hot/dev-server',
+  //   'webpack-dev-server/client?http://localhost:8081',
+  //   path.resolve(__dirname, 'src/js/app.js')
+  // ],
   entry:path.resolve(__dirname,'src/js/app.js'),
 
   output: {

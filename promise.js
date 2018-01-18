@@ -9,8 +9,11 @@ const p1 = new Promise(function (resolve, reject) {
 const p2 = new Promise(function (resolve, reject) {
   setTimeout(function () {
     reject(2)
+    console.log('after reject')
   }, 2000)
 })
+
+
 const p3 = [1, 2, 3]
 //Promise.all([p1, p2, p3]).then(function (q) {
 //  console.log(q[0])
@@ -51,6 +54,6 @@ function test() {
 console.log('-------------------------------')
 
 const demo = new Promise((resolve, reject)=>reject('err'))
-demo
-  .catch(err=>console.log(err))
-  .then(()=>console.log('ok'))//会执行吗?会执行
+// demo
+//   .catch(err=>console.log(err))
+//   .then(()=>console.log('ok'))//会执行吗?会执行
