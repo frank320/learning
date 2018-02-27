@@ -1,12 +1,12 @@
 var path = require('path')
 var OpenBrowserPlugin = require('open-browser-webpack-plugin')
 module.exports = {
-  // entry: [
-  //   'webpack/hot/dev-server',
-  //   'webpack-dev-server/client?http://localhost:8081',
-  //   path.resolve(__dirname, 'src/js/app.js')
-  // ],
-  entry:path.resolve(__dirname,'src/js/app.js'),
+  entry: [
+    'webpack/hot/dev-server',
+    'webpack-dev-server/client?http://localhost:8080',
+    path.resolve(__dirname, 'src/js/app.js')
+  ],
+  //entry:path.resolve(__dirname,'src/js/app.js'),
 
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -53,7 +53,7 @@ module.exports = {
   },
   //自动在浏览器中启动引用
   plugins: [
-    new OpenBrowserPlugin({url: 'http://localhost:8079/', browser: 'chrome'})
+    new OpenBrowserPlugin({url: 'http://localhost:8080', browser: 'chrome'})
   ]
 
 }
