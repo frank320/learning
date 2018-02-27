@@ -40,7 +40,7 @@ some topics you should understand before seeking for a job as a full-stack engin
    - nodejs中大数据处理时如何防止栈溢出
      1. 递归实现
      
-### 1. **mongo** 
+### 2. **mongo** 
 
    - 使用时遇到的坑及解决办法
      [参考](http://blog.csdn.net/jiesa/article/details/53069089)
