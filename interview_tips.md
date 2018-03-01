@@ -68,5 +68,11 @@ some topics you should understand before seeking for a job as a full-stack engin
    
      [参考](http://blog.csdn.net/jiesa/article/details/53069089)
      [参考](http://blog.csdn.net/zxmsdyz/article/details/50939314)
+     
+### 3. **linux** 
+  
+   - linux服务器硬件配置信息查看  
+     
+     [参考](https://github.com/frank320/learning/blob/master/linux_info_check.md)     
    
       
