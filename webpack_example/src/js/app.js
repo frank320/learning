@@ -11,7 +11,7 @@ import ReactDOM from 'react-dom'
 //import PropsCheck from '../compontents/PropsCheck.js'
 //import Context1 from '../compontents/Context.js'
 //import ReactRouter from '../compontents/ReactRouter'
-import Parent from '../compontents/TestProps'
+import Parent from '../compontents/Communicate'
 
 // 属性扩散
 var obj = {
@@ -31,7 +31,7 @@ var obj = {
 //}
 
 ReactDOM.render(
-  <div>
+  <div style={{margin: '0 auto', width: '600px', textAlign: 'center'}}>
     <Parent/>
   </div>,
   document.getElementById('app')
