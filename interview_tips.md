@@ -52,6 +52,10 @@ some topics you should understand before seeking for a job as a full-stack engin
      > nginx配置静态资源服务器
      [参考](http://blog.csdn.net/zzq900503/article/details/72821081)
      
+     > docker部署
+     [参考](http://blog.csdn.net/qq_36892341/article/details/73918672)
+     [参考](https://www.jianshu.com/p/ab76ba86eafc)
+
      3. 监控预警
      > Easy-Monitor模块(函数性能监控)
      [参考](https://cnodejs.org/topic/58d0dd8b17f61387400b7de5)
