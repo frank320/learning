@@ -75,22 +75,31 @@ setTimeout(() => {
 //   })
 
 //-------------
-setTimeout(()=>{
-  console.log('setTimeout')
-}) //下一轮事件循环开始执行
+// setTimeout(()=>{
+//   console.log('setTimeout')
+// }) //下一轮事件循环开始执行
+//
+// setImmediate(() => {
+//   console.log('setImmediate')
+// }) //下一轮事件循环开始执行
+//
+// Promise.resolve()
+//   .then(() => {
+//     console.log('then')
+//   })//本轮事件循环末尾执行
+//
+// process.nextTick(() => {
+//   console.log('nextTick')
+// }) //主线程代码执行完后后立即执行
 
-setImmediate(() => {
-  console.log('setImmediate')
-}) //下一轮事件循环开始执行
 
-Promise.resolve()
-  .then(() => {
-    console.log('then')
-  })//本轮事件循环末尾执行
-
-process.nextTick(() => {
-  console.log('nextTick')
-}) //主线程代码执行完后后立即执行
+//console.log('end') //end nextTick then setTimeout setImmediate
 
 
-console.log('end') //end nextTick then setTimeout setImmediate
+
+// fs.readFile('test.js', () => {
+//   setTimeout(() => console.log(1));
+//   setImmediate(() => console.log(2));
+// });
+//输出 2 1   在此轮时间循环中setImmediate先执行
+//上面代码会先进入 I/O callbacks 阶段，然后是 check 阶段，最后才是 timers 阶段。因此，setImmediate才会早于setTimeout执行。
