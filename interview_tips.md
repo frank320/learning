@@ -38,6 +38,9 @@ some topics you should understand before seeking for a job as a full-stack engin
 
 ### 1. **nodejs**   
    
+   - nodejs面试常见基础问题
+    [参考](https://github.com/jimuyouyou/node-interview-questions)
+    
    - nodejs中启动一个服务(http.creatServer())底层实现
    
    - nodejs中的stream
