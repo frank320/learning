@@ -42,6 +42,7 @@ some topics you should understand before seeking for a job as a full-stack engin
    
    - nodejs中的stream
      [参考](http://www.cnblogs.com/dolphinX/p/6279805.html)
+     [参考](http://blog.csdn.net/weixin_39573030/article/details/79345305)
     
    - nodejs集群部署、负载均衡、监控预警
      1. 单机集群 pm2模块负载均衡
