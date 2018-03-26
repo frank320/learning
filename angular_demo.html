@@ -5,7 +5,7 @@
   <title>Title</title>
 </head>
 <body ng-app='demo' ng-controller='test'>
-<button ng-click='fn()' ng-hide='isHide'>按钮</button>
+<button ng-click='fn()' ng-hide='!isHide'>按钮</button>
 <button ng-click='fn()' ng-hide='isHide'>按钮</button>
 </body>
 <script src='./node_modules/angular/angular.min.js'></script>
@@ -17,5 +17,7 @@
       this.isHide = true
     }
   })
+
+  console.log(document.documentElement === document.getElementsByTagName('html')[0])//true
 </script>
 </html>
