@@ -6,6 +6,7 @@
 
 
 
+
 export {foo}
 const bar = 1
 export {bar}
