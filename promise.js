@@ -1,3 +1,5 @@
+import { log } from "util";
+
 /**
  * Created by wikeLi on 2016/12/19.
  */
@@ -53,7 +55,11 @@ function test() {
 
 console.log('-------------------------------')
 
+
 const demo = new Promise((resolve, reject)=>reject('err'))
 // demo
 //   .catch(err=>console.log(err))
 //   .then(()=>console.log('ok'))//会执行吗?会执行
+console.log('')
+console.log('')
+console.log('')
