@@ -27,7 +27,11 @@ some topics you should understand before seeking for a job as a full-stack engin
 
    - Web性能优化与实践整理  
     [参考](https://cnodejs.org/topic/5a311f729807389a1809f37a)
-     
+    
+   - 网站优化
+    [参考](https://www.zhihu.com/question/21658448)
+    
+    [css优化](https://www.zhihu.com/question/19886806)
 
 ### 2. **webpack**
    
