@@ -39,6 +39,9 @@ some topics you should understand before seeking for a job as a full-stack engin
     
    - 判断数组的几种方式
     [参考](https://www.cnblogs.com/heshan1992/p/6927690.html)
+    
+    - call apply bind区别
+     [参考](https://www.cnblogs.com/Jade-Liu18831/p/9580410.html)
 
 ### 2. **webpack**
    
