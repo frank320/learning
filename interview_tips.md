@@ -43,6 +43,9 @@ some topics you should understand before seeking for a job as a full-stack engin
     - call apply bind区别
      [参考](https://www.cnblogs.com/Jade-Liu18831/p/9580410.html)
 
+    - mobx基础
+     [参考](https://www.jianshu.com/p/505d9d9fe36a)
+
 ### 2. **webpack**
    
    - webpack优化建议
