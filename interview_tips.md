@@ -40,10 +40,10 @@ some topics you should understand before seeking for a job as a full-stack engin
    - 判断数组的几种方式
     [参考](https://www.cnblogs.com/heshan1992/p/6927690.html)
     
-    - call apply bind区别
+   - call apply bind区别
      [参考](https://www.cnblogs.com/Jade-Liu18831/p/9580410.html)
 
-    - mobx基础
+   - mobx基础
      [参考](https://www.jianshu.com/p/505d9d9fe36a) <br/>
      [redux mobx对比](http://www.vsoui.com/2017/12/19/redux-to-mobx/)
 
