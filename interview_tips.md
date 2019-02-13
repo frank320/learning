@@ -51,7 +51,16 @@ some topics you should understand before seeking for a job as a full-stack engin
    
    - webpack优化建议
    <a href='http://www.cnblogs.com/powertoolsteam/p/Webpack.html' target='_blank'>参考</a>
-     
+### 3. **网络应用**
+
+   - http协议
+   <a href='https://www.cnblogs.com/ranyonsue/p/5984001.html' target='_blank'>参考</a>
+   
+   - 互联网网络传输协议
+   <a href='http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html' target='_blank'>参考</a>
+   
+   - 页面输入url后发生什么
+   <a href='https://www.cnblogs.com/jesse131/p/6215961.html' target='_blank'>参考</a>
 ## back-end
 
 ### 1. **nodejs**   
@@ -95,10 +104,6 @@ some topics you should understand before seeking for a job as a full-stack engin
      [参考](http://blog.csdn.net/jiesa/article/details/53069089)
      [参考](http://blog.csdn.net/zxmsdyz/article/details/50939314)
      
-### 3. **linux** 
-  
-   - linux服务器硬件配置信息查看  
-     
-     [参考](https://github.com/frank320/learning/blob/master/linux_info_check.md)     
+    
    
       
