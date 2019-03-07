@@ -9,3 +9,4 @@
 Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 
 ```
+<a href="http://www.xitongcheng.com/jiaocheng/win10_article_44841.html" target="_blank">win10企业版激活成功后变成教育版如何恢复</a>
