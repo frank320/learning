@@ -36,6 +36,7 @@ some topics you should understand before seeking for a job as a full-stack engin
     [参考](https://www.zhihu.com/question/19886806) <br/>
     [BFC](https://www.cnblogs.com/chen-cong/p/7862832.html) <br/>
     [水平垂直](https://www.cnblogs.com/cme-kai/p/6192544.html) <br/>
+    [清除浮动几种方式](https://blog.csdn.net/qq_36647038/article/details/80033462) <br/>
     
    - 判断数组的几种方式
     [参考](https://www.cnblogs.com/heshan1992/p/6927690.html)
