@@ -46,7 +46,8 @@ some topics you should understand before seeking for a job as a full-stack engin
 
    - mobx基础
      [参考](https://www.jianshu.com/p/505d9d9fe36a) <br/>
-     [redux mobx对比](http://www.vsoui.com/2017/12/19/redux-to-mobx/)
+     [redux mobx对比](http://www.vsoui.com/2017/12/19/redux-to-mobx/)<br/>
+     [参考](https://www.jianshu.com/p/c7e06cee4ea6)
 
 ### 2. **webpack**
    
