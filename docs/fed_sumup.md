@@ -68,6 +68,10 @@ some topics you should know  as a full-stack enginner !
    
    - 页面输入url后发生什么  
    <a href='https://www.cnblogs.com/jesse131/p/6215961.html' target="_blank">参考<a>  
+
+    - Web 实时推送技术的总结  
+    [参考](https://mp.weixin.qq.com/s/23unZJrMP9sVe5PTCApzGQ)  
+
 ## back-end
 
 ### 1. **nodejs**   
