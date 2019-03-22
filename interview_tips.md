@@ -6,7 +6,7 @@ some topics you should understand before seeking for a job as a full-stack engin
 ### 1. **react**
   
    - 组件生命周期
-    [参考](https://www.jianshu.com/p/4784216b8194)
+    [参考](https://www.jianshu.com/p/4784216b8194?_blank)
     [参考](https://segmentfault.com/q/1010000006019858/a-1020000006020641)
      
    - 组件间通信
