@@ -62,7 +62,7 @@ some topics you should understand before seeking for a job as a full-stack engin
    <a href='http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html' target='_blank'>参考</a>
    
    - 页面输入url后发生什么
-   <a href='https://www.cnblogs.com/jesse131/p/6215961.html' target='_blank'>参考</a>
+   <a href='https://www.cnblogs.com/jesse131/p/6215961.html' target="_blank">参考</a>
 ## back-end
 
 ### 1. **nodejs**   
