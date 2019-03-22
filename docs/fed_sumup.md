@@ -62,7 +62,7 @@ some topics you should know  as a full-stack enginner !
     [发展](./http_history.md)
 
    - web缓存  
-   ![参考](../imgs/web_cache.jpg)
+   [参考](../imgs/web_cache.jpg)
 
    - 互联网网络传输协议  
    <a href='http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html' target='_blank'>参考</a>
