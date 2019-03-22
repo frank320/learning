@@ -9,7 +9,7 @@ some topics you should know  as a full-stack enginner !
      [周期总结 v16.3之前](https://www.jianshu.com/p/4784216b8194)  
      [周期总结 v16.3之后](https://mp.weixin.qq.com/s/Lp-pXHdg48d-TV0QsJOcwA)  
      [二次渲染问题](https://segmentfault.com/q/1010000006019858/a-1020000006020641)  
-     [常见问题](https://mp.weixin.qq.com/s/Q4tVWxACmw1Rd8fQHfC-ow)
+     [基本概念](https://mp.weixin.qq.com/s/Q4tVWxACmw1Rd8fQHfC-ow)
      
    - 组件间通信  
      [参考](https://www.jianshu.com/p/fb915d9c99c4)
@@ -47,8 +47,7 @@ some topics you should know  as a full-stack enginner !
 
    - mobx基础  
      [参考](https://www.jianshu.com/p/505d9d9fe36a)  
-     [redux mobx对比](http://www.vsoui.com/2017/12/19/redux-to-mobx/)  
-     [参考](https://www.jianshu.com/p/c7e06cee4ea6)
+     [redux mobx对比](https://www.jianshu.com/p/c7e06cee4ea6)
 
 ### 2. **webpack**
    
