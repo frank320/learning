@@ -1,4 +1,3 @@
-import { log } from "util";
 
 /**
  * Created by wikeLi on 2016/12/19.
@@ -63,3 +62,13 @@ const demo = new Promise((resolve, reject)=>reject('err'))
 console.log('')
 console.log('')
 console.log('')
+
+// console.log(typeof Promise.prototype.finally)
+
+Promise.prototype.finally = function (callback) {
+  let P = this.constructor;
+  return this.then(
+    value  => P.resolve(callback()).then(() => value),
+    reason => P.resolve(callback()).then(() => { throw reason })
+  );
+};

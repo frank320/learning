@@ -15,6 +15,12 @@ Object.defineProperty(target, 'c', {
 target.c = 4
 delete target.c
 console.log(target)
-for(let v in target){
+for (let v in target) {
   console.log(v)
 }
+
+const obj = Object.create({ a: 1});
+obj.b = 2;
+console.log("a" in obj)//true
+console.log(Reflect.has(obj,"a"))//true
+console.log(Reflect.ownKeys(obj))//[ 'b' ]

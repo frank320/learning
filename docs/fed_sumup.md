@@ -3,7 +3,7 @@ some topics you should know  as a full-stack enginner !
 
 ## front-end
 
-### 1. **react**
+### 1. **html js css && react**
   
    - 组件生命周期  
      [周期总结 v16.3之前](https://www.jianshu.com/p/4784216b8194)  
@@ -14,7 +14,7 @@ some topics you should know  as a full-stack enginner !
    - 组件间通信  
      [参考](https://www.jianshu.com/p/fb915d9c99c4)
    - react diff算法浅析  
-     [参考](https://blog.csdn.net/qq_26708777/article/details/78107577)
+     [参考](https://zhuanlan.zhihu.com/p/20346379)
   
    - setState方法是异步执行
    > setState方法与包含在其中的执行是一个很复杂的过程，这段程式码从React最初的版本到现在，也有无数次的修改。它的工作除了要更动this.state之外，还要负责触发重新渲染(render)，这里面要经过React核心中diff演算法，最终才能决定是否要进行重渲染，以及如何渲染。而且为了批次与效能的理由，多个setState呼叫有可能在执行过程中还需要被合并，所以它被设计以异步的或延时的来进行执行是相当合理的。
