@@ -72,6 +72,9 @@ some topics you should know  as a full-stack enginner !
    - Web 实时推送技术的总结  
     [参考](https://mp.weixin.qq.com/s/23unZJrMP9sVe5PTCApzGQ)  
 
+   - Web安全  
+    [xss csrf](https://mp.weixin.qq.com/s/Rf4dag7Z1rFNl4LxbAjyqw)  
+
 ## back-end
 
 ### 1. **nodejs**   
@@ -104,7 +107,10 @@ some topics you should know  as a full-stack enginner !
    - nodejs中处理大量数据时如何防止栈溢出
      1. 递归实现(尾调用优化)
      2. 数据分段处理
-     
+
+   - koa2  
+     [koa2中间件机制](https://blog.csdn.net/u011392772/article/details/81153795)  
+
 ### 2. **database** 
 
    - mongo & redis   
