@@ -52,7 +52,9 @@ some topics you should know  as a full-stack enginner !
 ### 2. **webpack**
    
    - webpack优化建议  
-   <a href='http://www.cnblogs.com/powertoolsteam/p/Webpack.html' target='_blank'>参考</a>
+   [打包性能优化](http://www.cnblogs.com/powertoolsteam/p/Webpack.html)  
+   [react减小打包体积](https://blog.csdn.net/code_for_free/article/details/51583737)
+
 
 ### 3. **web网络**
 
