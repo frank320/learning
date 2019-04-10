@@ -33,7 +33,8 @@ some topics you should know  as a full-stack enginner !
     [资源加载顺序](https://github.com/laoqiren/web-performance/blob/master/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86/%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD%E9%A1%BA%E5%BA%8F.md)  
     
    - 网站性能优化  
-    [参考](https://www.zhihu.com/question/21658448)
+    [参考](https://www.zhihu.com/question/21658448)  
+    [页面性能优化](https://mp.weixin.qq.com/s/DapiwE-AhML-Mm4r0b_sWg)
     
    - css   
     [性能优化](https://www.zhihu.com/question/19886806)  
