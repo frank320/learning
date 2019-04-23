@@ -52,6 +52,52 @@ some topics you should know  as a full-stack enginner !
      [参考](https://www.jianshu.com/p/505d9d9fe36a)  
      [redux mobx对比](https://www.jianshu.com/p/c7e06cee4ea6)
 
+   - js  
+     [js引擎执行过程](http://www.cnblogs.com/chengxs/p/10240163.html)
+     + 函数提升优先级比变量提升要高，且不会被变量声明覆盖，但是会被变量赋值覆盖;在编译阶段，后面的变量声明遇到前面有冲突的变量声明或者函数声明，都会忽略;
+   - ES6
+
+     1. class
+        * 类必须使用new调用，否则会报错。这是它跟普通构造函数的一个主要区别，后者不用new也可以执行
+        * 类的内部所有定义的方法(原型方法和静态方法)，都是不可枚举的（non-enumerable）
+        * \_\_proto\_\_ 并不是语言本身的特性，建议使用 Object.getPrototypeOf方法代替
+        * 类不存在变量提升（hoist），这一点与 ES5 完全不同
+        * class实例属性除了定义在constructor()方法里面的this上面，也可以定义在类的最顶层
+          ```
+            class Foo {
+              _a = 1;//实例属性
+              constructor() {
+                this.b = 2;//实例属性
+              }
+              c = ()=>3;//实例属性
+              d() {//原型属性(方法)
+                //...
+              }
+            }
+          ```
+        * 子类普通方法中通过super调用父类的方法时，方法内部的this指向当前的子类实例
+        * 继承
+          ```
+            class A {
+            }
+
+            class B extends A {
+            }
+
+            B.__proto__ === A // true
+            B.prototype.__proto__ === A.prototype // true
+            
+          ```
+        * ES6 允许继承原生构造函数定义子类，因为 ES6 是先新建父类的实例对象this，然后再用子类的构造函数修饰this，使得父类的所有行为都可以继承，而
+          ES5 是先新建子类的实例对象this，再将父类的属性添加到子类上，由于父类的内部属性无法获取，导致无法继承原生的构造函数  
+     2. module
+         * import命令具有提升效果，会提升到整个模块的头部，首先执行
+         * 导出模块为对象时，其属性可以改写，并且其他模块也能读到改写后的值
+         * 多次重复执行同一句import语句，那么只会执行一次，而不会执行多次
+         * export通过接口，输出的是同一个值。不同的脚本加载这个接口，得到的都是同样的实例
+         * CommonJS 模块遇到循环加载时，返回的是当前已经执行的部分的值，而不是代码全部执行后的值
+
+
 ### 2. **webpack**
    
    - webpack优化建议  
