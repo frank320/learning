@@ -23,6 +23,13 @@ some topics you should know  as a full-stack enginner !
    > 在React库控制之外时，它就会以同步的方式来执行  
      [demo](https://www.bennadel.com/blog/2893-setstate-state-mutation-operation-may-be-synchronous-in-reactjs.htm)
    
+   - react源码分析    
+     [小结](https://www.jianshu.com/p/8af5be333b5f)  
+     [全面分析](https://juejin.im/post/5a84682ef265da4e83266cc4)
+
+   - react性能优化  
+     [参考](https://yq.aliyun.com/articles/183972?spm=a2c4e.11153940.blogcont72330.26.681a5e87R4iVcF)
+
    - Immutable Data(immutable.js,immer模块)  
      [immer简介及源码解析](https://segmentfault.com/a/1190000013088373)  
      [immer实战讲解](https://blog.csdn.net/qq_30552845/article/details/84989438)
