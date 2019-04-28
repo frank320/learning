@@ -136,7 +136,9 @@ some topics you should know  as a full-stack enginner !
 ## back-end
 
 ### 1. **nodejs**   
-   
+   - 版本管理  
+     [跨平台的nvs](https://github.com/jasongin/nvs)  
+
    - nodejs面试常见基础问题  
     [参考](https://github.com/jimuyouyou/node-interview-questions)
     
