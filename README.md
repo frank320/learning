@@ -9,7 +9,6 @@ some topics you should know  as a full-stack enginner !
    - 组件生命周期  
      [周期总结 v16.3之前](https://www.jianshu.com/p/4784216b8194)  
      [周期总结 v16.3之后](https://mp.weixin.qq.com/s/Lp-pXHdg48d-TV0QsJOcwA)  
-     [二次渲染问题](https://segmentfault.com/q/1010000006019858/a-1020000006020641)  
      [基本概念](https://mp.weixin.qq.com/s/Q4tVWxACmw1Rd8fQHfC-ow)
      
    - 组件间通信  
@@ -26,7 +25,7 @@ some topics you should know  as a full-stack enginner !
    
    - react源码分析    
      [小结](https://www.jianshu.com/p/8af5be333b5f)  
-     [全面分析](https://juejin.im/post/5a84682ef265da4e83266cc4)
+     [全面分析](https://juejin.im/post/5a84682ef265da4e83266cc4)  
      [setState源码分析](https://juejin.im/post/5aa25967518825558251f61f#heading-0)
 
    - react性能优化  
@@ -111,7 +110,7 @@ some topics you should know  as a full-stack enginner !
    
    - webpack优化建议  
    [打包性能优化](http://www.cnblogs.com/powertoolsteam/p/Webpack.html)  
-   [react减小打包体积](https://blog.csdn.net/code_for_free/article/details/51583737)
+   [React Code-Splitting](https://www.jianshu.com/p/5bb70b2c52c3)
 
 
 ### 3. **web网络**
@@ -142,7 +141,10 @@ some topics you should know  as a full-stack enginner !
    - 版本管理  
      [跨平台的nvs](https://github.com/jasongin/nvs)  
 
-   - nodejs面试常见基础问题  
+   - 参考书籍  
+     [koa与nodejs开发实战](https://download.csdn.net/download/easyprogramming/10981415)
+
+   - nodejs常见基础问题  
     [参考](https://github.com/jimuyouyou/node-interview-questions)
     
    - nodejs中的stream  
