@@ -184,5 +184,8 @@ some topics you should know  as a full-stack enginner !
      [redis](http://www.runoob.com/redis/redis-tutorial.html)
      
     
-   
+### 3. **linux**   
       
+   - 基础
+     [常用命令](./docs/linux常用命令.docx)  
+     [CentOS6.5将shell脚本设置为服务和开机启动的方法](https://blog.csdn.net/e_wsq/article/details/79885180)
