@@ -189,3 +189,10 @@ some topics you should know  as a full-stack enginner !
    - 基础
      [常用命令](./docs/linux常用命令.docx)  
      [CentOS6.5将shell脚本设置为服务和开机启动的方法](https://blog.csdn.net/e_wsq/article/details/79885180)
+
+### 4. **git**   
+      
+   - 基础  
+     [常用命令](./docs/git_useages.md)  
+     [git merge 与 git rebase的区别1](https://blog.csdn.net/liuxiaoheng1992/article/details/79108233)  
+     [git merge 与 git rebase的区别2](https://blog.csdn.net/jfkidear/article/details/84189098)  
