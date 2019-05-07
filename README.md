@@ -118,11 +118,11 @@ some topics you should know  as a full-stack enginner !
 
    - http协议  
     [简介](https://www.cnblogs.com/ranyonsue/p/5984001.html)  
-    [发展](./http_history.md)  
+    [发展](./docs/http_history.md)  
     [https](https://mp.weixin.qq.com/s/geepUXBRFXK6X8Xocp3YPw)
 
    - web缓存  
-   [参考](../imgs/web_cache.jpg)
+   [参考](./imgs/web_cache.jpg)
 
    - 互联网网络传输协议  
    <a href='http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html' target='_blank'>参考</a>
