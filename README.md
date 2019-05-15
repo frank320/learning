@@ -32,8 +32,12 @@ some topics you should know  as a full-stack enginner !
      [参考](https://yq.aliyun.com/articles/183972?spm=a2c4e.11153940.blogcont72330.26.681a5e87R4iVcF)
   
    - redux  
-     [Redux中间件与异步action](https://blog.csdn.net/awaw00/article/details/55668558)
+     [Redux中间件与异步action](https://blog.csdn.net/awaw00/article/details/55668558)  
+     [Connect源码分析](https://www.jianshu.com/p/e3cdce986ee2)
    
+   - reselect  
+     [为什么我们需要reselect](https://segmentfault.com/a/1190000011936772)
+     
    - Express, Koa, Redux中间件的区别  
      [参考](https://www.jianshu.com/p/70fb2405b281)
 
