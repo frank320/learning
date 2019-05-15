@@ -22,7 +22,7 @@ some topics you should know  as a full-stack enginner !
    - setState以同步方式执行
    > 在React库控制之外时，它就会以同步的方式来执行  
      [demo](https://www.bennadel.com/blog/2893-setstate-state-mutation-operation-may-be-synchronous-in-reactjs.htm)
-   
+
    - react源码分析    
      [小结](https://www.jianshu.com/p/8af5be333b5f)  
      [全面分析](https://juejin.im/post/5a84682ef265da4e83266cc4)  
@@ -30,11 +30,17 @@ some topics you should know  as a full-stack enginner !
 
    - react性能优化  
      [参考](https://yq.aliyun.com/articles/183972?spm=a2c4e.11153940.blogcont72330.26.681a5e87R4iVcF)
+  
+   - redux  
+     [Redux中间件与异步action](https://blog.csdn.net/awaw00/article/details/55668558)
+   
+   - Express, Koa, Redux中间件的区别  
+     [参考](https://www.jianshu.com/p/70fb2405b281)
 
    - Immutable Data(immutable.js,immer模块)  
      [immer简介及源码解析](https://segmentfault.com/a/1190000013088373)  
      [immer实战讲解](https://blog.csdn.net/qq_30552845/article/details/84989438)
-   > Immutable Data 就是一旦创建，就不能再被更改的数据。对 Immutable 对象的任何修改或添加删除操作都会返回一个新的 Immutable 对象。Immutable 实现的原理是 Persistent Data Structure（持久化数据结构），也就是使用旧数据创建新数据时，要保证旧数据同时可用且不变。同时为了避免 deepCopy 把所有节点都复制一遍带来的性能损耗，Immutable 使用了 Structural Sharing（结构共享），即如果对象树中一个节点发生变化，只修改这个节点和受它影响的父节点，其它节点则进行共享
+   
 
    - Web渲染  
     [渲染过程](https://github.com/laoqiren/web-performance/blob/master/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86/%E6%B8%B2%E6%9F%93%E8%BF%87%E7%A8%8B.md)  
@@ -139,8 +145,6 @@ some topics you should know  as a full-stack enginner !
 ## back-end
 
 ### 1. **nodejs**   
-   - 版本管理  
-     [跨平台的nvs](https://github.com/jasongin/nvs)  
 
    - 参考书籍  
      [koa与nodejs开发实战](https://download.csdn.net/download/easyprogramming/10981415)
@@ -186,7 +190,7 @@ some topics you should know  as a full-stack enginner !
     
 ### 3. **linux**   
       
-   - 基础
+   - 基础  
      [常用命令](./docs/linux常用命令.docx)  
      [CentOS6.5将shell脚本设置为服务和开机启动的方法](https://blog.csdn.net/e_wsq/article/details/79885180)
 
