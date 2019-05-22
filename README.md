@@ -9,6 +9,7 @@ some topics you should know  as a full-stack enginner !
    - 组件生命周期  
      [周期总结 v16.3之前](https://www.jianshu.com/p/4784216b8194)  
      [周期总结 v16.3之后](https://mp.weixin.qq.com/s/Lp-pXHdg48d-TV0QsJOcwA)  
+     [React.createElement 与 JSX](https://www.jianshu.com/p/42a3ec621e94)  
      [基本概念](https://mp.weixin.qq.com/s/Q4tVWxACmw1Rd8fQHfC-ow)
      
    - 组件间通信  
@@ -29,11 +30,13 @@ some topics you should know  as a full-stack enginner !
      [setState源码分析](https://juejin.im/post/5aa25967518825558251f61f#heading-0)
 
    - react性能优化  
-     [参考](https://yq.aliyun.com/articles/183972?spm=a2c4e.11153940.blogcont72330.26.681a5e87R4iVcF)
+     [参考](https://yq.aliyun.com/articles/183972?spm=a2c4e.11153940.blogcont72330.26.681a5e87R4iVcF)  
+     [16加载优化](https://blog.csdn.net/xiaoguang44/article/details/80436952)  
   
    - redux  
      [Redux中间件与异步action](https://blog.csdn.net/awaw00/article/details/55668558)  
-     [Connect源码分析](https://www.jianshu.com/p/e3cdce986ee2)
+     [Connect源码分析](https://www.jianshu.com/p/e3cdce986ee2)  
+     [源码解析](https://www.jianshu.com/p/728dbb1de25e)
    
    - reselect  
      [为什么我们需要reselect](https://segmentfault.com/a/1190000011936772)
