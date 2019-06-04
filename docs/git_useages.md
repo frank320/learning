@@ -40,6 +40,13 @@ git checkout master // 切换到旧的分支
 git reset --hard develop  // 将本地的旧分支 master 重置成 develop
 git push origin master --force // 再推送到远程仓库
 
+//创建分支和远程关联
+1.如果本地新建了一个分支branch_name，但是在远程没有，这时候push和pull指令就无法确定该跟踪谁,一般来说我们都会使其跟踪远程同名分支，所以可以利用git push --set-upstream origin branch_name，这样就可以自动在远程创建一个branch_name分支，然后本地分支会track该分支。后面再对该分支使用push和pull就自动同步。无需再指定分支。
+
+2.跟踪远程分支
+1）如果远程新建了一个分支，本地没有该分支，可以用git checkout --track origin/branch_name，这时候本地会新建一个分支名叫branch_name，会自动跟踪远程的同名分支branch_name。
+
+3. git branch --set-upstream debug origin/test 使用命令git branch –set-upstream ; test为创建的分支
 
 //克隆远程所有分支到本地
 1.git clone http://myrepo.xxx.com/project/.git 

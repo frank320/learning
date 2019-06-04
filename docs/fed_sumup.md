@@ -61,7 +61,8 @@ some topics you should know  as a full-stack enginner !
      [redux mobx对比](https://www.jianshu.com/p/c7e06cee4ea6)
 
    - js  
-     [js引擎执行过程](http://www.cnblogs.com/chengxs/p/10240163.html)
+     [js引擎执行过程](http://www.cnblogs.com/chengxs/p/10240163.html)  
+     [JavaScript Engines](https://www.valentinog.com/blog/engines/)  
      + 函数提升优先级比变量提升要高，且不会被变量声明覆盖，但是会被变量赋值覆盖;在编译阶段，后面的变量声明遇到前面有冲突的变量声明或者函数声明，都会忽略;
    - ES6
 
