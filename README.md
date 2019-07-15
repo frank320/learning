@@ -76,6 +76,11 @@ some topics you should know  as a full-stack enginner !
    - js  
      [js引擎执行过程](http://www.cnblogs.com/chengxs/p/10240163.html)
      + 函数提升优先级比变量提升要高，且不会被变量声明覆盖，但是会被变量赋值覆盖;在编译阶段，后面的变量声明遇到前面有冲突的变量声明或者函数声明，都会忽略;
+   
+   - promise实现  
+     [用法](http://es6.ruanyifeng.com/#docs/promise)  
+     [源码实现](https://segmentfault.com/a/1190000018769632?utm_source=tag-newest)
+
    - ES6
 
      1. class
