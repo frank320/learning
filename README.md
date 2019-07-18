@@ -30,8 +30,9 @@ some topics you should know  as a full-stack enginner !
      [setState源码分析](https://juejin.im/post/5aa25967518825558251f61f#heading-0)
 
    - react性能优化  
-     [参考](https://yq.aliyun.com/articles/183972?spm=a2c4e.11153940.blogcont72330.26.681a5e87R4iVcF)  
-     [16加载优化](https://blog.csdn.net/xiaoguang44/article/details/80436952)  
+     [性能优化总结](https://yq.aliyun.com/articles/183972?spm=a2c4e.11153940.blogcont72330.26.681a5e87R4iVcF)  
+     [v16加载优化](https://blog.csdn.net/xiaoguang44/article/details/80436952)  
+     [常见优化项](https://mp.weixin.qq.com/s/PSYm43GkIR9tZVWpAEWrNA)
   
    - redux  
      [Redux中间件与异步action](https://blog.csdn.net/awaw00/article/details/55668558)  
@@ -39,6 +40,7 @@ some topics you should know  as a full-stack enginner !
      [源码解析](https://www.jianshu.com/p/728dbb1de25e)
    
    - reselect  
+     [简介](https://www.jianshu.com/p/b9153e4952bb)  
      [为什么我们需要reselect](https://segmentfault.com/a/1190000011936772)
      
    - Express, Koa, Redux中间件的区别  
