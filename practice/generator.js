@@ -70,15 +70,15 @@ function* compute() {
 //console.log(it.next())
 
 // 异步任务的封装
-const Thunk = require("thunkify")
+// const Thunk = require("thunkify")
 // ES6版本
-// const Thunk = function(fn) {
-//   return function (...args) {
-//     return function (callback) {
-//       return fn.call(this, ...args, callback);
-//     }
-//   };
-// };
+const Thunk = function(fn) {
+  return function (...args) {
+    return function (callback) {
+      return fn.call(this, ...args, callback);
+    }
+  };
+};
 
 function f(a, cb) {
   cb(a);
@@ -92,17 +92,17 @@ ft(1)(console.log) // 1
 
 
 //自动执行器 thunk
-// function run(fn) {
-//   var gen = fn();
+function run(fn) {
+  var gen = fn();
 
-//   function next(err, data) {
-//     var result = gen.next(data);
-//     if (result.done) return;
-//     result.value(next);
-//   }
+  function next(err, data) {
+    var result = gen.next(data);
+    if (result.done) return;
+    result.value(next);
+  }
 
-//   next();
-// }
+  next();
+}
 
 // function* g() {
 //   // ...
