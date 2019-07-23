@@ -9,6 +9,7 @@ const observable = obj => new Proxy(obj, {set});
 function set(target, key, value, receiver) {
   const result = Reflect.set(target, key, value, receiver);
   queuedObservers.forEach(observer => observer());
+  console.log(result)
   return result;
 }
 //上面代码中，先定义了一个Set集合，所有观察者函数都放进这个集合。然后，observable函数返回原始对象的代理，
