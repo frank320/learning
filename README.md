@@ -32,12 +32,16 @@ some topics you should know  as a full-stack enginner !
    - react性能优化  
      [性能优化总结](https://yq.aliyun.com/articles/183972?spm=a2c4e.11153940.blogcont72330.26.681a5e87R4iVcF)  
      [v16加载优化](https://blog.csdn.net/xiaoguang44/article/details/80436952)  
-     [常见优化项](https://mp.weixin.qq.com/s/PSYm43GkIR9tZVWpAEWrNA)
+     [常见优化项](https://mp.weixin.qq.com/s/PSYm43GkIR9tZVWpAEWrNA)  
+     [react按需加载原理](https://ccbeango.github.io/React/React%E6%8C%89%E9%9C%80%E5%8A%A0%E8%BD%BD%EF%BC%88%E4%B8%8B%EF%BC%89/)  
+     [React.memo()](https://www.jianshu.com/p/b3d07860b778)  
+     [hooks](http://www.ptbird.cn/react-hooks-at-a-glance.html)  
   
    - redux  
      [Redux中间件与异步action](https://blog.csdn.net/awaw00/article/details/55668558)  
      [Connect源码分析](https://www.jianshu.com/p/e3cdce986ee2)  
-     [源码解析](https://www.jianshu.com/p/728dbb1de25e)
+     [源码解析](https://www.jianshu.com/p/728dbb1de25e)  
+     [redux-starter-kit](https://github.com/reduxjs/redux-starter-kit)  
    
    - reselect  
      [简介](https://www.jianshu.com/p/b9153e4952bb)  
@@ -194,6 +198,7 @@ some topics you should know  as a full-stack enginner !
 
    - koa2  
      [koa2中间件机制](https://blog.csdn.net/u011392772/article/details/81153795)  
+     [koa2开发目录结构](https://github.com/ikcamp/koa2-tutorial/tree/master/code)
 
 ### 2. **database** 
 
