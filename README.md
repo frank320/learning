@@ -68,6 +68,7 @@ some topics you should know  as a full-stack enginner !
     [BFC](https://www.cnblogs.com/chen-cong/p/7862832.html)  
     [水平垂直居中](https://www.cnblogs.com/cme-kai/p/6192544.html)  
     [清除浮动几种方式](https://www.cnblogs.com/nxl0908/p/7245460.html)  
+    [rem适配](https://segmentfault.com/a/1190000012225828)  
     
    - 判断数组的几种方式  
     [参考](https://www.cnblogs.com/heshan1992/p/6927690.html)
@@ -86,6 +87,9 @@ some topics you should know  as a full-stack enginner !
    - promise实现  
      [用法](http://es6.ruanyifeng.com/#docs/promise)  
      [源码实现](https://segmentfault.com/a/1190000018769632?utm_source=tag-newest)
+
+   - 实时推送  
+     [web实时推送总结](https://mp.weixin.qq.com/s/23unZJrMP9sVe5PTCApzGQ)  
 
    - ES6
 
