@@ -20,9 +20,9 @@
           "language": "typescript",
           "autoFix": true
       },
-      // {
-      //     "language": "typescriptreact",
-      //     "autoFix": true
-      // }
-  ],
+      {
+          "language": "typescriptreact",
+          "autoFix": true
+      }
+  ]
 }
