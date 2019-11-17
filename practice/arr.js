@@ -6,3 +6,9 @@ console.log(typeof o)//object
 for (let i of o) {
     console.log(i)
 }
+
+const arr = [12, 14]
+arr.unshift(1)
+arr.unshift(2)
+arr.unshift(3, 4)
+console.log(arr)

@@ -194,7 +194,7 @@ const p3 = new MyPromise((resove, reject) => {
   }, 1000)
 })
 
-p1.then(val=>console.log(val))
-p1.then(val=>console.log(val))
-p1.then(val=>console.log(val))
-p3.then(val=>console.log(val)).catch(err=>console.log(err))
+p1.then(val => console.log(val))
+p1.then(val => console.log(val))
+p1.then(val => console.log(val))
+p3.then(val => console.log(val)).catch(err => console.log(err))
