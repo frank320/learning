@@ -4,20 +4,20 @@ some topics you should know  as a full-stack enginner !
 
 ## front-end
 
-### 1. **html js css && react**
+### 1. **html js css && react/vue**
   
-   - 组件生命周期  
+   - react组件生命周期  
      [周期总结 v16.3之前](https://www.jianshu.com/p/4784216b8194)  
      [周期总结 v16.3之后](https://mp.weixin.qq.com/s/Lp-pXHdg48d-TV0QsJOcwA)  
      [React.createElement 与 JSX](https://www.jianshu.com/p/42a3ec621e94)  
      [基本概念](https://mp.weixin.qq.com/s/Q4tVWxACmw1Rd8fQHfC-ow)
      
-   - 组件间通信  
+   - react组件间通信  
      [参考](https://www.jianshu.com/p/fb915d9c99c4)
    - react diff算法浅析  
      [参考](https://zhuanlan.zhihu.com/p/20346379)
   
-   - setState方法是异步执行
+   - react中setState方法是异步执行
    > setState方法与包含在其中的执行是一个很复杂的过程，这段程式码从React最初的版本到现在，也有无数次的修改。它的工作除了要更动this.state之外，还要负责触发重新渲染(render)，这里面要经过React核心中diff演算法，最终才能决定是否要进行重渲染，以及如何渲染。而且为了批次与效能的理由，多个setState呼叫有可能在执行过程中还需要被合并，所以它被设计以异步的或延时的来进行执行是相当合理的。
    
    - setState以同步方式执行
@@ -27,14 +27,18 @@ some topics you should know  as a full-stack enginner !
    - react源码分析    
      [小结](https://www.jianshu.com/p/8af5be333b5f)  
      [全面分析](https://juejin.im/post/5a84682ef265da4e83266cc4)  
-     [setState源码分析](https://juejin.im/post/5aa25967518825558251f61f#heading-0)
+     [setState源码分析](https://juejin.im/post/5aa25967518825558251f61f#heading-0)  
+     [React Fiber理解](https://juejin.im/entry/5b9885496fb9a05cf3711471)  
+     [react fiber架构](http://www.sohu.com/a/295391278_463970) 
+     [react hooks使用](https://zh-hans.reactjs.org/docs/hooks-intro.html)  
+     [react hook源码分析](https://www.jianshu.com/p/fc31704ad0ee?from=timeline) 
+
 
    - react性能优化  
      [v16加载优化](https://blog.csdn.net/xiaoguang44/article/details/80436952)  
      [常见优化项](https://mp.weixin.qq.com/s/PSYm43GkIR9tZVWpAEWrNA)  
      [react按需加载原理](https://ccbeango.github.io/React/React%E6%8C%89%E9%9C%80%E5%8A%A0%E8%BD%BD%EF%BC%88%E4%B8%8B%EF%BC%89/)  
      [React.memo()](https://www.jianshu.com/p/b3d07860b778)  
-     [hooks](https://zh-hans.reactjs.org/docs/hooks-intro.html)  
   
    - redux  
      [Redux中间件与异步action](https://blog.csdn.net/awaw00/article/details/55668558)  
@@ -53,12 +57,18 @@ some topics you should know  as a full-stack enginner !
      [immer简介及源码解析](https://segmentfault.com/a/1190000013088373)  
      [immer实战讲解](https://blog.csdn.net/qq_30552845/article/details/84989438)
    
+   - vue  
+     [简史](https://juejin.im/post/5c7c97f6f265da2de7136c59#heading-6)
 
+   - H5  
+     [移动端性能优化介绍](https://mp.weixin.qq.com/s/pSD463u7SM_066PA5Z4n4g)  
+    
+     
    - Web渲染  
     [渲染过程](https://github.com/laoqiren/web-performance/blob/master/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86/%E6%B8%B2%E6%9F%93%E8%BF%87%E7%A8%8B.md)  
     [资源加载顺序](https://github.com/laoqiren/web-performance/blob/master/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86/%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD%E9%A1%BA%E5%BA%8F.md)  
     
-   - 网站性能优化  
+   - web网站性能优化  
     [参考](https://www.zhihu.com/question/21658448)  
     [页面性能优化](https://mp.weixin.qq.com/s/DapiwE-AhML-Mm4r0b_sWg)
     
@@ -69,68 +79,27 @@ some topics you should know  as a full-stack enginner !
     [清除浮动几种方式](https://www.cnblogs.com/nxl0908/p/7245460.html)  
     [rem适配](https://segmentfault.com/a/1190000012225828)  
     
-   - 判断数组的几种方式  
+   - js中判断数组的几种方式  
     [参考](https://www.cnblogs.com/heshan1992/p/6927690.html)
     
    - call apply bind区别  
      [参考](https://www.cnblogs.com/Jade-Liu18831/p/9580410.html)
 
-   - mobx基础  
+   - mobx基础    
      [参考](https://www.jianshu.com/p/505d9d9fe36a)  
      [redux mobx对比](https://www.jianshu.com/p/c7e06cee4ea6)
 
-   - js  
+   - js执行过程  
      [js引擎执行过程](http://www.cnblogs.com/chengxs/p/10240163.html)
      + 函数提升优先级比变量提升要高，且不会被变量声明覆盖，但是会被变量赋值覆盖;在编译阶段，后面的变量声明遇到前面有冲突的变量声明或者函数声明，都会忽略;
    
-   - promise实现  
+   - Promise实现  
      [用法](http://es6.ruanyifeng.com/#docs/promise)  
      [源码实现](https://segmentfault.com/a/1190000018769632?utm_source=tag-newest)
 
-   - 实时推送  
-     [web实时推送总结](https://mp.weixin.qq.com/s/23unZJrMP9sVe5PTCApzGQ)  
-
-   - ES6
-
-     1. class
-        * 类必须使用new调用，否则会报错。这是它跟普通构造函数的一个主要区别，后者不用new也可以执行
-        * 类的内部所有定义的方法(原型方法和静态方法)，都是不可枚举的（non-enumerable）
-        * \_\_proto\_\_ 并不是语言本身的特性，建议使用 Object.getPrototypeOf方法代替
-        * 类不存在变量提升（hoist），这一点与 ES5 完全不同
-        * class实例属性除了定义在constructor()方法里面的this上面，也可以定义在类的最顶层
-          ```
-            class Foo {
-              _a = 1;//实例属性
-              constructor() {
-                this.b = 2;//实例属性
-              }
-              c = ()=>3;//实例属性
-              d() {//原型属性(方法)
-                //...
-              }
-            }
-          ```
-        * 子类普通方法中通过super调用父类的方法时，方法内部的this指向当前的子类实例
-        * 继承
-          ```
-            class A {
-            }
-
-            class B extends A {
-            }
-
-            B.__proto__ === A // true
-            B.prototype.__proto__ === A.prototype // true
-            
-          ```
-        * ES6 允许继承原生构造函数定义子类，因为 ES6 是先新建父类的实例对象this，然后再用子类的构造函数修饰this，使得父类的所有行为都可以继承，而
-          ES5 是先新建子类的实例对象this，再将父类的属性添加到子类上，由于父类的内部属性无法获取，导致无法继承原生的构造函数  
-     2. module
-         * import命令具有提升效果，会提升到整个模块的头部，首先执行
-         * 导出模块为对象时，其属性可以改写，并且其他模块也能读到改写后的值
-         * 多次重复执行同一句import语句，那么只会执行一次，而不会执行多次
-         * export通过接口，输出的是同一个值。不同的脚本加载这个接口，得到的都是同样的实例
-         * CommonJS 模块遇到循环加载时，返回的是当前已经执行的部分的值，而不是代码全部执行后的值
+   - ES6  
+     [总结](./es6.md)  
+     [es6入门](http://es6.ruanyifeng.com/#docs/intro)  
 
 
 ### 2. **webpack**
@@ -141,7 +110,7 @@ some topics you should know  as a full-stack enginner !
    [React Code-Splitting](https://www.jianshu.com/p/5bb70b2c52c3)
 
 
-### 3. **web网络**
+### 3. **web网络基础**
 
    - http协议  
     [简介](https://www.cnblogs.com/ranyonsue/p/5984001.html)  
@@ -189,7 +158,7 @@ some topics you should know  as a full-stack enginner !
      [参考](http://blog.csdn.net/qq_36892341/article/details/73918672)  
      [参考](https://www.jianshu.com/p/ab76ba86eafc)
 
-     3. 监控预警  
+     1. 监控预警  
      > Easy-Monitor模块(函数性能监控)  
      [参考](https://cnodejs.org/topic/58d0dd8b17f61387400b7de5)  
      > alinode平台  
