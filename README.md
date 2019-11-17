@@ -30,12 +30,11 @@ some topics you should know  as a full-stack enginner !
      [setState源码分析](https://juejin.im/post/5aa25967518825558251f61f#heading-0)
 
    - react性能优化  
-     [性能优化总结](https://yq.aliyun.com/articles/183972?spm=a2c4e.11153940.blogcont72330.26.681a5e87R4iVcF)  
      [v16加载优化](https://blog.csdn.net/xiaoguang44/article/details/80436952)  
      [常见优化项](https://mp.weixin.qq.com/s/PSYm43GkIR9tZVWpAEWrNA)  
      [react按需加载原理](https://ccbeango.github.io/React/React%E6%8C%89%E9%9C%80%E5%8A%A0%E8%BD%BD%EF%BC%88%E4%B8%8B%EF%BC%89/)  
      [React.memo()](https://www.jianshu.com/p/b3d07860b778)  
-     [hooks](http://www.ptbird.cn/react-hooks-at-a-glance.html)  
+     [hooks](https://zh-hans.reactjs.org/docs/hooks-intro.html)  
   
    - redux  
      [Redux中间件与异步action](https://blog.csdn.net/awaw00/article/details/55668558)  
