@@ -29,9 +29,9 @@ some topics you should know  as a full-stack enginner !
      [全面分析](https://juejin.im/post/5a84682ef265da4e83266cc4)  
      [setState源码分析](https://juejin.im/post/5aa25967518825558251f61f#heading-0)  
      [React Fiber理解](https://juejin.im/entry/5b9885496fb9a05cf3711471)  
-     [react fiber架构](http://www.sohu.com/a/295391278_463970) 
-     [react hooks使用](https://zh-hans.reactjs.org/docs/hooks-intro.html)  
-     [react hook源码分析](https://www.jianshu.com/p/fc31704ad0ee?from=timeline) 
+     [react fiber架构](http://www.sohu.com/a/295391278_463970)  
+     [react hooks使用](https://zh-hans.reactjs.org/docs/hooks-intro.html)   
+     [react hook源码浅析](https://blog.csdn.net/sinat_17775997/article/details/94451690) 
 
 
    - react性能优化  
