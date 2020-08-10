@@ -43,4 +43,4 @@ function test1(first, ...arr) {
   console.log(arr)
 }
 test(obj)
-test1(1, 2, 3, 4, 5)
+test1(1, 2, 3, 4)

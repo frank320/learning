@@ -7,6 +7,8 @@ const os = require('os')
 const cluster = require('cluster')
 const http = require('http')
 
+console.log('fork one ')
+console.log(os.cpus().length)
 let workers = {}
 if (cluster.isMaster) {
   //主进程分支监听  当一个工作进程结束时 重启一个工作进程
@@ -18,7 +20,7 @@ if (cluster.isMaster) {
 
   //初始时 根据cup数量 开启数量相同的工作进程
   for (let i = 0; i < os.cpus().length; i++) {
-    cluster.fork()
+    cluster.fork() //只要开启一个进程 此js文件就会执行一遍
   }
 } else {
   //工作进程分支 启动服务器
