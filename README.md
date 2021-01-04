@@ -101,6 +101,8 @@ some topics you should know  as a full-stack enginner !
      [总结](./es6.md)  
      [es6入门](http://es6.ruanyifeng.com/#docs/intro)  
 
+   - 算法相关  
+     [知识点](./docs/算法相关.md)
 
 ### 2. **webpack**
    
@@ -108,6 +110,9 @@ some topics you should know  as a full-stack enginner !
    [打包性能优化](http://www.cnblogs.com/powertoolsteam/p/Webpack.html)  
    [缩小js包体积](https://blog.csdn.net/code_for_free/article/details/51583737)  
    [React Code-Splitting](https://www.jianshu.com/p/5bb70b2c52c3)
+
+   - webpack插件  
+   [webpack插件原理分析及编写示例](https://mp.weixin.qq.com/s/E1bjaJMC4DAmxfTGyGtXbw)
 
 
 ### 3. **web网络基础**
