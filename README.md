@@ -113,6 +113,7 @@ some topics you should know  as a full-stack enginner !
 
    - webpack插件  
    [webpack插件原理分析及编写示例](https://mp.weixin.qq.com/s/E1bjaJMC4DAmxfTGyGtXbw)
+   [Webpack5 新特性 - 模块联邦](https://zhuanlan.zhihu.com/p/115403616)
 
 
 ### 3. **web网络基础**
