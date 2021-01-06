@@ -98,7 +98,7 @@ some topics you should know  as a full-stack enginner !
      [源码实现](https://segmentfault.com/a/1190000018769632?utm_source=tag-newest)
 
    - ES6  
-     [总结](./es6.md)  
+     [总结](./docs/es6.md)  
      [es6入门](http://es6.ruanyifeng.com/#docs/intro)  
 
    - 算法相关  
