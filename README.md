@@ -104,6 +104,10 @@ some topics you should know  as a full-stack enginner !
    - 算法相关  
      [知识点](./docs/算法相关.md)
 
+   - webassembly  
+     [WebAssembly 现状与实战](https://developer.ibm.com/zh/articles/wa-lo-webassembly-status-and-reality/)
+     
+
 ### 2. **webpack**
    
    - webpack优化建议  
@@ -114,6 +118,7 @@ some topics you should know  as a full-stack enginner !
    - webpack插件  
    [webpack插件原理分析及编写示例](https://mp.weixin.qq.com/s/E1bjaJMC4DAmxfTGyGtXbw)
    [Webpack5 新特性 - 模块联邦](https://zhuanlan.zhihu.com/p/115403616)
+   [webpack5新特性](https://www.jb51.net/article/197239.htm)
 
 
 ### 3. **web网络基础**
@@ -202,3 +207,4 @@ some topics you should know  as a full-stack enginner !
 ## 大前端基础建设
    
   1. [基础建设方向](https://juejin.im/post/5e644a65518825495d69bca6)  
+  2. [大前端趋势](https://mp.weixin.qq.com/s/slghkDUyng7tOha3JFzeCQ)
