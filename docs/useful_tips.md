@@ -2,7 +2,7 @@
  * @Author: zhangshipeng
  * @Description: 
  * @Date: 2021-01-04 13:53:08
- * @LastEditTime: 2021-01-06 16:36:58
+ * @LastEditTime: 2021-01-07 13:48:29
 -->
 
 
@@ -30,6 +30,7 @@ Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -Disa
 ```
   C:\Program Files\nodejs>set path=%PATH%;
   C:\Program Files\nodejs>setx path “%PATH%”
+
 ```
 
 + vscode常用设置及快捷键使用
@@ -69,3 +70,7 @@ Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -Disa
 
 
 ```
+
++ eslint  
+
+  [关于eslint使用规则，和各种报错对应规则](https://www.jianshu.com/p/421c66111c06)

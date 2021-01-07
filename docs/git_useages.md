@@ -1,3 +1,9 @@
+<!--
+ * @Author: zhangshipeng
+ * @Description: 
+ * @Date: 2021-01-04 13:53:08
+ * @LastEditTime: 2021-01-07 12:09:53
+-->
 git pull origin 分支名  拉取远程服务器代码到本地
 
 git log 查看提交历史(包括各个版本号)
@@ -29,6 +35,7 @@ git rebase master 在旁路分支上导入主分支最新代码
 
 git merge 分支名  在主分支上合并旁路分支代码
 
++ [Git打Tag相关操作](https://www.jianshu.com/p/dab7da2a0721)
 
 
 //一个分支完全替换另一个分支

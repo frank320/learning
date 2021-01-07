@@ -1,11 +1,12 @@
-# some docs for learning IT
+# docs for learning IT
 
 some topics you should know  as a full-stack enginner !
 
 ## front-end
 
 ### 1. **html js css && react/vue**
-  
+   - react官方  
+     [hooks](https://zh-hans.reactjs.org/docs/hooks-effect.html)
    - react组件生命周期  
      [周期总结 v16.3之前](https://www.jianshu.com/p/4784216b8194)  
      [周期总结 v16.3之后](https://mp.weixin.qq.com/s/Lp-pXHdg48d-TV0QsJOcwA)  
@@ -107,6 +108,10 @@ some topics you should know  as a full-stack enginner !
    - webassembly  
      [WebAssembly 现状与实战](https://developer.ibm.com/zh/articles/wa-lo-webassembly-status-and-reality/)
      
+   - 微前端  
+    [EMP微前端解决方案](https://mp.weixin.qq.com/s/l0-uCLFRcBBrs4yTiAvryg)
+    [微前端调研及简析SPA实现原理](https://zhuanlan.zhihu.com/p/144545551)
+    [qiankun](https://qiankun.umijs.org/zh/guide/getting-started)
 
 ### 2. **webpack**
    
@@ -156,7 +161,7 @@ some topics you should know  as a full-stack enginner !
    - nodejs中的stream  
      [参考](http://blog.csdn.net/weixin_39573030/article/details/79345305)
     
-   - nodejs集群部署、负载均衡、监控预警
+   - nodejs集群部署、负载均衡
      1. 单机集群 pm2模块负载均衡
      2. 多机集群 
      > http-proxy/nginx反向代理  
@@ -169,7 +174,7 @@ some topics you should know  as a full-stack enginner !
      [参考](http://blog.csdn.net/qq_36892341/article/details/73918672)  
      [参考](https://www.jianshu.com/p/ab76ba86eafc)
 
-     1. 监控预警  
+  -  nodejs监控预警  
      > Easy-Monitor模块(函数性能监控)  
      [参考](https://cnodejs.org/topic/58d0dd8b17f61387400b7de5)  
      > alinode平台  
@@ -182,6 +187,10 @@ some topics you should know  as a full-stack enginner !
    - koa2  
      [koa2中间件机制](https://blog.csdn.net/u011392772/article/details/81153795)  
      [koa2开发目录结构](https://github.com/ikcamp/koa2-tutorial/tree/master/code)
+
+   - 命令行工具  
+     [参考文档1](https://www.jianshu.com/p/5eb17a9e8ddc)
+     [参考文档2](https://www.sohu.com/a/275486462_495695)
 
 ### 2. **database** 
 
