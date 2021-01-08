@@ -112,9 +112,9 @@ some topics you should know  as a full-stack enginner !
      [WebAssembly 现状与实战](https://developer.ibm.com/zh/articles/wa-lo-webassembly-status-and-reality/)
      
    - 微前端  
-    [EMP微前端解决方案](https://mp.weixin.qq.com/s/l0-uCLFRcBBrs4yTiAvryg)
-    [微前端调研及简析SPA实现原理](https://zhuanlan.zhihu.com/p/144545551)
-    [qiankun](https://qiankun.umijs.org/zh/guide/getting-started)
+    [EMP微前端解决方案](https://mp.weixin.qq.com/s/l0-uCLFRcBBrs4yTiAvryg)  
+    [微前端调研及简析SPA实现原理](https://zhuanlan.zhihu.com/p/144545551)  
+    [qiankun](https://qiankun.umijs.org/zh/guide/getting-started)  
 
 ### 2. **webpack**
    
@@ -124,11 +124,9 @@ some topics you should know  as a full-stack enginner !
    [React Code-Splitting](https://www.jianshu.com/p/5bb70b2c52c3)
 
    - webpack学习
-   [webpack插件原理分析及编写示例](https://mp.weixin.qq.com/s/E1bjaJMC4DAmxfTGyGtXbw)
-   [Webpack5 新特性 - 模块联邦](https://zhuanlan.zhihu.com/p/115403616)
-   [webpack5新特性](https://www.jb51.net/article/197239.htm)
-   [模块联邦-示例1](https://www.jianshu.com/p/ee37bf3f6af5)
-   [联邦模块-示例2](https://zhuanlan.zhihu.com/p/148869581)
+   [webpack插件原理分析及编写示例](https://mp.weixin.qq.com/s/E1bjaJMC4DAmxfTGyGtXbw)  
+   [webpack5新特性](https://www.jb51.net/article/197239.htm)  
+   [联邦模块-示例](https://zhuanlan.zhihu.com/p/148869581)  
    [联邦模块-更多示例参考](https://github.com/module-federation/module-federation-examples)
 
 
