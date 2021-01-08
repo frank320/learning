@@ -2,7 +2,7 @@
  * @Author: zhangshipeng
  * @Description: 
  * @Date: 2021-01-04 13:53:08
- * @LastEditTime: 2021-01-07 13:48:29
+ * @LastEditTime: 2021-01-08 11:57:21
 -->
 
 
@@ -27,6 +27,8 @@ Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -Disa
 
 + git bash ‘node‘ 不是内部或外部命令，也不是可运行的程序 或批处理文件 解决方案
 
+   [参考](https://blog.csdn.net/m0_37613019/article/details/108316113)
+   
 ```
   C:\Program Files\nodejs>set path=%PATH%;
   C:\Program Files\nodejs>setx path “%PATH%”

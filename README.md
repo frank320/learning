@@ -5,8 +5,11 @@ some topics you should know  as a full-stack enginner !
 ## front-end
 
 ### 1. **html js css && react/vue**
+
    - react官方  
      [hooks](https://zh-hans.reactjs.org/docs/hooks-effect.html)
+     [v17新特性](https://juejin.cn/post/6885881513741647886)
+
    - react组件生命周期  
      [周期总结 v16.3之前](https://www.jianshu.com/p/4784216b8194)  
      [周期总结 v16.3之后](https://mp.weixin.qq.com/s/Lp-pXHdg48d-TV0QsJOcwA)  
@@ -120,10 +123,12 @@ some topics you should know  as a full-stack enginner !
    [缩小js包体积](https://blog.csdn.net/code_for_free/article/details/51583737)  
    [React Code-Splitting](https://www.jianshu.com/p/5bb70b2c52c3)
 
-   - webpack插件  
+   - webpack学习
    [webpack插件原理分析及编写示例](https://mp.weixin.qq.com/s/E1bjaJMC4DAmxfTGyGtXbw)
    [Webpack5 新特性 - 模块联邦](https://zhuanlan.zhihu.com/p/115403616)
    [webpack5新特性](https://www.jb51.net/article/197239.htm)
+   [模块联邦-示例1](https://www.jianshu.com/p/ee37bf3f6af5)
+   [联邦模块-示例2](https://zhuanlan.zhihu.com/p/148869581)
 
 
 ### 3. **web网络基础**
