@@ -129,6 +129,7 @@ some topics you should know  as a full-stack enginner !
    [webpack5新特性](https://www.jb51.net/article/197239.htm)
    [模块联邦-示例1](https://www.jianshu.com/p/ee37bf3f6af5)
    [联邦模块-示例2](https://zhuanlan.zhihu.com/p/148869581)
+   [联邦模块-更多示例参考](https://github.com/module-federation/module-federation-examples)
 
 
 ### 3. **web网络基础**
