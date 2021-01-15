@@ -2,7 +2,7 @@
  * @Author: zhangshipeng
  * @Description: 
  * @Date: 2021-01-04 13:53:08
- * @LastEditTime: 2021-01-08 11:57:21
+ * @LastEditTime: 2021-01-15 11:50:18
 -->
 
 
@@ -76,3 +76,7 @@ Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -Disa
 + eslint  
 
   [关于eslint使用规则，和各种报错对应规则](https://www.jianshu.com/p/421c66111c06)
+
++ plantUML(画图工具)
+
+  [参考链接](https://ephen.me/2017/VSCode_PlantUML/)
