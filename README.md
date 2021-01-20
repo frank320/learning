@@ -116,6 +116,10 @@ some topics you should know  as a full-stack enginner !
     [微前端调研及简析SPA实现原理](https://zhuanlan.zhihu.com/p/144545551)  
     [qiankun](https://qiankun.umijs.org/zh/guide/getting-started)  
 
+   - react native  
+    [ReactNative原理浅析](https://zhuanlan.zhihu.com/p/81000495)
+    
+
 ### 2. **webpack**
    
    - webpack优化建议  
