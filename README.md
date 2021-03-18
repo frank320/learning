@@ -225,3 +225,6 @@ some topics you should know  as a full-stack enginner !
    
   1. [基础建设方向](https://juejin.im/post/5e644a65518825495d69bca6)  
   2. [大前端趋势](https://mp.weixin.qq.com/s/slghkDUyng7tOha3JFzeCQ)
+
+## 面试
+  + [总结](https://juejin.cn/post/6844904080142237703#heading-4)
