@@ -80,3 +80,6 @@ Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -Disa
 + plantUML(画图工具)
 
   [参考链接](https://ephen.me/2017/VSCode_PlantUML/)
+
++ eslint  
+  [use eslint in ts](https://segmentfault.com/a/1190000019661168)
