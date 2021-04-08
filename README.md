@@ -109,7 +109,7 @@ some topics you should know  as a full-stack enginner !
      [知识点](./docs/算法相关.md)
 
    - webassembly  
-     [WebAssembly 现状与实战](https://developer.ibm.com/zh/articles/wa-lo-webassembly-status-and-reality/)
+     [WebAssembly实战](https://segmentfault.com/a/1190000008402872)
      
    - 微前端  
     [EMP微前端解决方案](https://mp.weixin.qq.com/s/l0-uCLFRcBBrs4yTiAvryg)  
