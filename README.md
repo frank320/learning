@@ -85,7 +85,10 @@ some topics you should know  as a full-stack enginner !
     
    - js中判断数组的几种方式  
     [参考](https://www.cnblogs.com/heshan1992/p/6927690.html)
-    
+
+   - 发布/订阅  
+    [手写发布订阅](https://blog.csdn.net/qq_39953537/article/details/102685328) 
+
    - call apply bind区别  
      [参考](https://www.cnblogs.com/Jade-Liu18831/p/9580410.html)
 
