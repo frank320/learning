@@ -7,6 +7,9 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 // 自动生成html页面的插件
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
+
+const MyWebpackPlugin = require("./plugin");
+
 var webpackConfig = {
   // 指定打包的入口文件，entry可以是个字符串、数组、对象。一个键值对，就是一个入口文件
   entry: {
@@ -110,6 +113,11 @@ var webpackConfig = {
     //new TransferWebpackPlugin([
     //    {from: 'www'}
     //], path.resolve(__dirname,"src"))
+
+
+    new MyWebpackPlugin({
+      test: 666
+    })
   ]
 }
 
