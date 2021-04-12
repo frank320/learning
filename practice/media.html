@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>media</title>
+</head>
+
+<body>
+  <video id="test" autoplay></video>
+  <script>
+    //捕获屏幕或者窗口
+    navigator.mediaDevices.getDisplayMedia({ video: true }).then(stream => {
+      document.getElementById("test").srcObject = stream; //srcObject实时流文件
+    }).catch(error => {
+      console.log(error);//太6了吧
+    });
+
+   //捕获摄像头、麦克风、相机
+    navigator.mediaDevices.getUserMedia({ audio: true, video: true })
+      .then(function (stream) {
+        /* 使用这个stream stream */
+      })
+      .catch(function (err) {
+        /* 处理error */
+      });
+  </script>
+</body>
+
+</html>
