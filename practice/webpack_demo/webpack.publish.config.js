@@ -107,6 +107,7 @@ var webpackConfig = {
         NODE_ENV: '"production"'
       }
     }),
+  
     // 允许错误不打断程序.报错但不退出webpack进程
     new webpack.NoErrorsPlugin()
     // 把指定文件夹xia的文件复制到指定的目录
