@@ -224,8 +224,7 @@ some topics you should know  as a full-stack enginner !
       
    - 基础  
      [常用命令](./docs/git_useages.md)  
-     [git merge 与 git rebase的区别1](https://blog.csdn.net/liuxiaoheng1992/article/details/79108233)  
-     [git merge 与 git rebase的区别2](https://blog.csdn.net/jfkidear/article/details/84189098)  
+     [git merge 与 git rebase的区别](https://www.jianshu.com/p/6960811ac89c)  
 
 
 ## 大前端基础建设
