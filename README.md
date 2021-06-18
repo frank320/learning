@@ -76,8 +76,8 @@ some topics you should know  as a full-stack enginner !
     
    - web网站性能优化  
     [参考](https://www.zhihu.com/question/21658448)  
-    [页面性能优化](https://mp.weixin.qq.com/s/DapiwE-AhML-Mm4r0b_sWg)
-    
+    [页面性能优化](https://mp.weixin.qq.com/s/DapiwE-AhML-Mm4r0b_sWg)  
+    [React 性能优化 ：包括原理、技巧、Demo、工具使用](https://mp.weixin.qq.com/s/jaWzs2GpPjN6Et6rapMUzA)
    - css   
     [性能优化](https://www.zhihu.com/question/19886806)  
     [BFC](https://www.cnblogs.com/chen-cong/p/7862832.html)  
@@ -124,7 +124,9 @@ some topics you should know  as a full-stack enginner !
    - react native  
     [ReactNative原理浅析](https://zhuanlan.zhihu.com/p/81000495)
     
-
+   - web worker  
+    [介绍](https://blog.csdn.net/lqlqlq007/article/details/79824122)  
+    [基础](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)
 ### 2. **webpack**
    
    - webpack优化建议  
@@ -132,7 +134,7 @@ some topics you should know  as a full-stack enginner !
    [缩小js包体积](https://blog.csdn.net/code_for_free/article/details/51583737)  
    [React Code-Splitting](https://www.jianshu.com/p/5bb70b2c52c3)
 
-   - webpack学习
+   - webpack学习  
    [webpack插件原理分析及编写示例](https://mp.weixin.qq.com/s/E1bjaJMC4DAmxfTGyGtXbw)  
    [webpack5新特性](https://www.jb51.net/article/197239.htm)  
    [联邦模块-示例](https://zhuanlan.zhihu.com/p/148869581)  
