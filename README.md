@@ -98,10 +98,10 @@ some topics you should know  as a full-stack enginner !
      [参考](https://www.jianshu.com/p/505d9d9fe36a)  
      [redux mobx对比](https://www.jianshu.com/p/c7e06cee4ea6)
 
-   - js执行过程  
-     [js引擎执行过程](http://www.cnblogs.com/chengxs/p/10240163.html)
-     + 函数提升优先级比变量提升要高，且不会被变量声明覆盖，但是会被变量赋值覆盖;在编译阶段，后面的变量声明遇到前面有冲突的变量声明或者函数声明，都会忽略;
-   
+   - js相关   
+     + [js引擎执行过程](http://www.cnblogs.com/chengxs/p/10240163.html)
+     + 函数提升优先级比变量提升要高，且不会被变量声明覆盖，但是会被变量赋值覆盖;在编译阶段，后面的变量声明遇到前面有冲突的变量声明或者函数声明，都会忽略;  
+     + [闭包理解](https://mp.weixin.qq.com/s/tGEebLD4UncxEyn3YkK8Xw)
    - Promise实现  
      [用法](http://es6.ruanyifeng.com/#docs/promise)  
      [源码实现](https://segmentfault.com/a/1190000018769632?utm_source=tag-newest)
@@ -109,7 +109,7 @@ some topics you should know  as a full-stack enginner !
    - ES6  
      [总结](./docs/es6.md)  
      [es6入门](http://es6.ruanyifeng.com/#docs/intro)  
-
+   
    - 算法相关  
      [知识点](./docs/算法相关.md)
 
