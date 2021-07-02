@@ -4,4 +4,4 @@ const f = funcs.reduce((a, b) => (...args) => a(b(...args)))
 
 f(666)
 
-console.log(f)
+// console.log(f)

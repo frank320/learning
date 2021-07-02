@@ -129,7 +129,11 @@ p.then(r => { console.log(r) })
 
 
 
+const _p = new Promise((resolve, reject) => {
+  reject('err')
+})
 
+_p.catch(12).then(1,err=>{console.log(err)}) //err
 
 //
 
