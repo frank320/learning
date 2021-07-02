@@ -26,3 +26,42 @@ function print() {
 
 observe(print);
 person.name = '李四';
+
+
+// proxy
+let numbers = [];
+
+const _numbers = new Proxy(numbers, { // (*)
+  set(target, prop, val) { // 拦截写入操作
+    if (typeof val == 'number') {
+      target[prop] = val;
+      return true;
+    } else {
+      return false;
+    }
+  }
+});
+console.log(numbers === _numbers) //false
+_numbers.push(1); // 添加成功
+_numbers.push(2); // 添加成功
+
+
+class Test{
+  get a() { //没有参数
+    return "666"
+  }
+  set b(v) {
+    console.log(v)
+  }
+}
+const test = new Test()
+
+console.log(test.a)
+test.b = 10;
+test.c = 100;
+console.log(test.b)
+console.log(Object.getOwnPropertyDescriptors(test))
+//https://blog.csdn.net/flitrue/article/details/103565803
+Object.freeze(test_proto_)
+test.c = 1
+console.log(test.c)//100
