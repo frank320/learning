@@ -55,7 +55,9 @@ some topics you should know  as a full-stack enginner !
    - reselect  
      [简介](https://www.jianshu.com/p/b9153e4952bb)  
      [为什么我们需要reselect](https://segmentfault.com/a/1190000011936772)
-     
+   - react服务单渲染  
+     [详解React服务端渲染](https://www.jb51.net/article/158625.htm)
+
    - Express, Koa, Redux中间件的区别  
      [参考](https://www.jianshu.com/p/70fb2405b281)
 
@@ -69,7 +71,7 @@ some topics you should know  as a full-stack enginner !
    - H5  
      [移动端性能优化介绍](https://mp.weixin.qq.com/s/pSD463u7SM_066PA5Z4n4g)  
     
-     
+  
    - Web渲染  
     [渲染过程](https://github.com/laoqiren/web-performance/blob/master/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86/%E6%B8%B2%E6%9F%93%E8%BF%87%E7%A8%8B.md)  
     [资源加载顺序](https://github.com/laoqiren/web-performance/blob/master/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86/%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD%E9%A1%BA%E5%BA%8F.md)  
