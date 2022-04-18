@@ -17,7 +17,7 @@
   2. why-did-you-update
   3. 渲染方法中添加函数
   4. props常量
-  5. 不可变数据
+  5. 不可变数据immer
 
 + 测试
   1. jest + testUtils
