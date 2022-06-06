@@ -12,3 +12,6 @@ arr.unshift(1)
 arr.unshift(2)
 arr.unshift(3, 4)
 console.log(arr)
+
+//不设置initialValue  则total初始值为arr[0] 并且从arr[1]开始遍历
+arr.reduce(function (total, currentValue, currentIndex, arr) { }, initialValue);
