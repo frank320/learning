@@ -1,17 +1,12 @@
 const arr = [3, 7, 6, 8, 4, 2, 1, 5]
 
-let a = 1;
-let b = 2;
-
-[b, a] = [a, b]
-console.log(a,b)
-
 
 function swap(a, b) {
     [arr[a], arr[b]] = [arr[b], arr[a]]
 }
 
-function buble() {
+
+function buble(arr) {
     const len = arr.length;
     for (let i = 0; i < len - 1; i++) {
         for (let j = 0; j < len - 1 - i; j++) {
@@ -24,7 +19,7 @@ function buble() {
 // buble()
 // console.log(arr)
 
-function select() {
+function select(arr) {
     const len = arr.length;
     let indexMin;
     for (let i = 0; i < len - 1; i++) {
@@ -42,7 +37,7 @@ function select() {
 // select()
 // console.log(arr)
 
-function insert() {
+function insert(arr) {
     const len = arr.length;
     let j;
     let temp;
@@ -94,6 +89,21 @@ function mergeSort(arr) {
 
 console.log(mergeSort(arr))
 
+
+//快速排序
+function quickSort( arr ) {
+    if(arr.length <= 1) return arr;
+    const num = arr[0];
+    let left = [], right = [];
+    for(let i = 1;i < arr.length; i++) {
+        if(arr[i]<=num) left.push(arr[i]);
+        else right.push(arr[i]);
+    }
+    return quickSort(left).concat([num],quickSort(right));
+}
+
+console.log("quickSort",quickSort(arr));
+
 //二分查找
 function binary_search(arr, key) {
     var low = 0,
@@ -111,6 +121,6 @@ function binary_search(arr, key) {
         }
     }
 };
-var arr = [1,2,3,4,5,6,7,8,9,10,11,23,44,86];
-var result = binary_search(arr,10);
+var _arr = [1,2,3,4,5,6,7,8,9,10,11,23,44,86];
+var result = binary_search(_arr,10);
 console.log(result); // 9 返回目标元素的索引值       

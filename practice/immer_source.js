@@ -39,8 +39,8 @@ function produce(state, producer) {
   const proxy = new Proxy(store, handler)
 
   producer(proxy)
-
-  const newState = proxy[PROXY_FLAG]
+   
+  const newState = proxy[PROXY_FLAG]  // newState === store true
   if (newState.modified) return newState.copy
   return newState.source
 }
@@ -55,8 +55,8 @@ const newState = produce(state, draft => {
   draft.done = true;
   draft.other = 2;
 })
-// newState.other = 3;
+newState.other = 3;
 // newState.done = false;
-console.log(newState);
+console.log(newState); 
 console.log(state);
-// console.log(newState.value===state.value)
+// console.log(newState.value===state.value) true
