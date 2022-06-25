@@ -50,10 +50,10 @@ function insert(arr) {
         }
         arr[j] = temp;
     }
+    return arr;
 }
 
-// insert()
-// console.log(arr)
+console.log(insert(arr))
 
 //归并排序
 function merge(left, right) {
@@ -87,7 +87,7 @@ function mergeSort(arr) {
     return merge(mergeSort(left), mergeSort(right))
 }
 
-console.log(mergeSort(arr))
+// console.log(mergeSort(arr))
 
 
 //快速排序
@@ -102,7 +102,7 @@ function quickSort( arr ) {
     return quickSort(left).concat([num],quickSort(right));
 }
 
-console.log("quickSort",quickSort(arr));
+// console.log("quickSort",quickSort(arr));
 
 //二分查找
 function binary_search(arr, key) {
@@ -121,6 +121,6 @@ function binary_search(arr, key) {
         }
     }
 };
-var _arr = [1,2,3,4,5,6,7,8,9,10,11,23,44,86];
-var result = binary_search(_arr,10);
-console.log(result); // 9 返回目标元素的索引值       
+// var _arr = [1,2,3,4,5,6,7,8,9,10,11,23,44,86];
+// var result = binary_search(_arr,10);
+// console.log(result); // 9 返回目标元素的索引值       

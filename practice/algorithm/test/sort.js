@@ -22,3 +22,21 @@ function quickSort(arr) {
 
 
 console.log("quicksort: ", quickSort(arr))
+
+
+function insert(arr) {
+  const len = arr.length;
+  let j, temp;
+  for (let i = 1; i < len; i++){
+    j = i;
+    temp = arr[i];
+    while (j > 0 && arr[j - 1] > temp) {
+      arr[j] = arr[j - 1];
+      j--;
+    }
+    arr[j] = temp;
+  }
+  return arr;
+}
+
+console.log("insert: ", insert(arr))

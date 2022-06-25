@@ -20,23 +20,17 @@ some topics you should know  as a full-stack enginner !
      [参考](https://www.jianshu.com/p/fb915d9c99c4)
    - react diff算法浅析  
      [参考](https://zhuanlan.zhihu.com/p/20346379)
-  
-   - react中setState方法是异步执行
-   > setState方法与包含在其中的执行是一个很复杂的过程，这段程式码从React最初的版本到现在，也有无数次的修改。它的工作除了要更动this.state之外，还要负责触发重新渲染(render)，这里面要经过React核心中diff演算法，最终才能决定是否要进行重渲染，以及如何渲染。而且为了批次与效能的理由，多个setState呼叫有可能在执行过程中还需要被合并，所以它被设计以异步的或延时的来进行执行是相当合理的。
-   
-   - setState以同步方式执行
-   > 在React库控制之外时，它就会以同步的方式来执行  
-     [demo](https://www.bennadel.com/blog/2893-setstate-state-mutation-operation-may-be-synchronous-in-reactjs.htm)
 
    - react源码分析    
      [小结](https://www.jianshu.com/p/8af5be333b5f)  
-     [全面分析](https://juejin.im/post/5a84682ef265da4e83266cc4)  
+     [全面分析](https://juejin.im/post/5a84682ef265da4e83266cc4)
+     [合成事件](https://juejin.cn/post/6994355922399297549)  
      [setState源码分析](https://juejin.im/post/5aa25967518825558251f61f#heading-0)  
      [React Fiber理解](https://juejin.im/entry/5b9885496fb9a05cf3711471)  
-     [react fiber架构](http://www.sohu.com/a/295391278_463970)  
      [react hooks使用](https://zh-hans.reactjs.org/docs/hooks-intro.html)  
      [hook使用示例](https://juejin.cn/post/6948748617817522206#heading-3)   
      [react hook源码浅析](https://blog.csdn.net/sinat_17775997/article/details/94451690)  
+     [react hooks原理](https://zhuanlan.zhihu.com/p/443264124)
      [useCallback和useMemo的区别](https://juejin.cn/post/6844904032113278990)
 
 
