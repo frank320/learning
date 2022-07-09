@@ -10,7 +10,7 @@ function quickSort(arr) {
   const left = []
   const right = []
   for (let i = 1; i < len; i++) {
-    if (arr[i] < n) {
+    if (arr[i] <= n) {
       left.push(arr[i])
     } else {
       right.push(arr[i]);

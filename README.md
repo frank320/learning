@@ -8,7 +8,8 @@ some topics you should know  as a full-stack enginner !
 
    - react官方  
      [hooks](https://zh-hans.reactjs.org/docs/hooks-effect.html)
-     [v17新特性](https://juejin.cn/post/6885881513741647886)
+     [v17新特性](https://juejin.cn/post/6885881513741647886)  
+     [v18概览](https://mp.weixin.qq.com/s/QRlZrHMT5Sscn58N5uN_xw)
 
    - react组件生命周期  
      [周期总结 v16.3之前](https://www.jianshu.com/p/4784216b8194)  
@@ -19,7 +20,15 @@ some topics you should know  as a full-stack enginner !
    - react组件间通信  
      [参考](https://www.jianshu.com/p/fb915d9c99c4)
    - react diff算法浅析  
-     [参考](https://zhuanlan.zhihu.com/p/20346379)
+     [参考](https://zhuanlan.zhihu.com/p/20346379)  
+     [react对比vue](https://blog.csdn.net/sinat_41696687/article/details/123311438)  
+     ```
+     vue会遍历data数据对象，使用Object.definedProperty()将每个属性都转换为getter和setter，每个Vue组件实例都有一个对应的watcher实例，在组件初次渲染的时候会记录组件用到了那些数据，当数据发生改变的时候，会触发setter方法，并通知所有依赖这个数据的watcher实例调用update方法去触发组件的compile渲染方法，进行渲染数据。
+
+     ```
+
+    + [react-native浅析](https://www.jianshu.com/p/7e067adaf270)  
+    + [跨平台](https://zhuanlan.zhihu.com/p/441221144)
 
    - react源码分析    
      [小结](https://www.jianshu.com/p/8af5be333b5f)  
@@ -28,10 +37,10 @@ some topics you should know  as a full-stack enginner !
      [setState源码分析](https://juejin.im/post/5aa25967518825558251f61f#heading-0)  
      [React Fiber理解](https://juejin.im/entry/5b9885496fb9a05cf3711471)  
      [react hooks使用](https://zh-hans.reactjs.org/docs/hooks-intro.html)  
-     [hook使用示例](https://juejin.cn/post/6948748617817522206#heading-3)   
-     [react hook源码浅析](https://blog.csdn.net/sinat_17775997/article/details/94451690)  
-     [react hooks原理](https://zhuanlan.zhihu.com/p/443264124)
+     [hook使用示例](https://juejin.cn/post/6948748617817522206#heading-3) 
      [useCallback和useMemo的区别](https://juejin.cn/post/6844904032113278990)
+     [react hooks原理](https://zhuanlan.zhihu.com/p/443264124)  
+     [react单元测试](https://www.jianshu.com/p/56196ca98c5d)
 
 
    - react性能优化  
@@ -49,7 +58,7 @@ some topics you should know  as a full-stack enginner !
    - reselect  
      [简介](https://www.jianshu.com/p/b9153e4952bb)  
      [为什么我们需要reselect](https://segmentfault.com/a/1190000011936772)
-   - react服务单渲染  
+   - react服务端渲染  
      [详解React服务端渲染](https://www.jb51.net/article/158625.htm)
 
    - Express, Koa, Redux中间件的区别  
@@ -60,7 +69,9 @@ some topics you should know  as a full-stack enginner !
      [immer实战讲解](https://blog.csdn.net/qq_30552845/article/details/84989438)
    
    - vue  
-     [简史](https://juejin.im/post/5c7c97f6f265da2de7136c59#heading-6)
+     [简史](https://juejin.im/post/5c7c97f6f265da2de7136c59#heading-6)  
+     [vue通信](https://blog.csdn.net/jiangjunyuan168/article/details/122640925)  
+     [defineProperty Proxy](https://wenku.baidu.com/view/feb5c51740323968011ca300a6c30c225901f03b.html)
 
    - H5  
      [移动端性能优化介绍](https://mp.weixin.qq.com/s/pSD463u7SM_066PA5Z4n4g)  
@@ -97,7 +108,20 @@ some topics you should know  as a full-stack enginner !
    - js相关   
      + [js引擎执行过程](http://www.cnblogs.com/chengxs/p/10240163.html)
      + 函数提升优先级比变量提升要高，且不会被变量声明覆盖，但是会被变量赋值覆盖;在编译阶段，后面的变量声明遇到前面有冲突的变量声明或者函数声明，都会忽略;  
-     + [闭包理解](https://mp.weixin.qq.com/s/tGEebLD4UncxEyn3YkK8Xw)
+     + [闭包理解](https://mp.weixin.qq.com/s/tGEebLD4UncxEyn3YkK8Xw)  
+     + [JavaScript中AST详解](https://www.jianshu.com/p/d37d540ea0d9)  
+     + [设计模式](https://www.jianshu.com/p/19a8c1d76257)  
+     + [mvvm理解](https://blog.csdn.net/jslyty/article/details/109482723)  
+     + [正则语法](https://blog.csdn.net/qq_41580536/article/details/118565378)  
+     + [js垃圾回收](https://zhuanlan.zhihu.com/p/23992332)  
+     + [jsbridge原理](https://blog.csdn.net/yuzhengfei7/article/details/93468914)  
+     + [web大文件上传](https://blog.csdn.net/u014609111/article/details/118336703)
+     + [前端工程化](https://www.cnblogs.com/aloneindefeat/p/13279328.html)
+     + [npm yarn区别](https://www.csdn.net/tags/MtTaMg5sMjkzMzktYmxvZwO0O0OO0O0O.html)
+     + [实现new运算符](https://blog.csdn.net/MFWSCQ/article/details/106134901)
+     + [js继承](https://www.jianshu.com/p/5bae725b9902)
+     + [纯函数理解](https://blog.csdn.net/qq_40413670/article/details/112720224)
+  
    - Promise实现  
      [用法](http://es6.ruanyifeng.com/#docs/promise)  
      [源码实现](https://segmentfault.com/a/1190000018769632?utm_source=tag-newest)
@@ -114,15 +138,17 @@ some topics you should know  as a full-stack enginner !
      
    - 微前端  
     [EMP微前端解决方案](https://mp.weixin.qq.com/s/l0-uCLFRcBBrs4yTiAvryg)  
-    [微前端调研及简析SPA实现原理](https://zhuanlan.zhihu.com/p/144545551)  
-    [qiankun](https://qiankun.umijs.org/zh/guide/getting-started)  
+    [微前端理解](https://mp.weixin.qq.com/s/UteaepIALm6h7Iv5Kng0zg)  
 
    - react native  
     [ReactNative原理浅析](https://zhuanlan.zhihu.com/p/81000495)
     
    - web worker  
     [介绍](https://blog.csdn.net/lqlqlq007/article/details/79824122)  
-    [基础](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)
+    [基础](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)  
+
+  + [webRtc简介](https://zhuanlan.zhihu.com/p/421503695)
+  + [webRtc总结](https://zhuanlan.zhihu.com/p/432772488)
 ### 2. **webpack**
    
    - webpack优化建议  
@@ -155,6 +181,7 @@ some topics you should know  as a full-stack enginner !
 
    - Web 实时推送技术的总结  
     [参考](https://mp.weixin.qq.com/s/23unZJrMP9sVe5PTCApzGQ)  
+    [SSE](http://www.ruanyifeng.com/blog/2017/05/server-sent_events.html)
 
    - Web安全  
     [xss csrf](https://mp.weixin.qq.com/s/Rf4dag7Z1rFNl4LxbAjyqw)  
@@ -167,7 +194,9 @@ some topics you should know  as a full-stack enginner !
      [koa与nodejs开发实战](https://download.csdn.net/download/easyprogramming/10981415)
 
    - nodejs常见基础问题  
-    [参考](https://github.com/jimuyouyou/node-interview-questions)
+    [参考](https://github.com/jimuyouyou/node-interview-questions)  
+    [nodejs事件循环](http://www.ruanyifeng.com/blog/2018/02/node-event-loop.html)  
+    [cluster多进程监听同一端口号](https://cnodejs.org/topic/56e84480833b7c8a0492e20c)
     
    - nodejs中的stream  
      [参考](http://blog.csdn.net/weixin_39573030/article/details/79345305)
@@ -200,8 +229,13 @@ some topics you should know  as a full-stack enginner !
      [koa2开发目录结构](https://github.com/ikcamp/koa2-tutorial/tree/master/code)
 
    - 命令行工具  
-     [参考文档1](https://www.jianshu.com/p/5eb17a9e8ddc)  
-     [参考文档2](https://www.sohu.com/a/275486462_495695)
+     [参考文档s](https://www.sohu.com/a/275486462_495695)  
+
+   + [graphQL](https://blog.csdn.net/feiyingwang/article/details/113945807)
+
+   + [TCP UDP 握手和挥手](https://blog.csdn.net/weixin_44828588/article/details/114886852)
+
+   + [cors](https://blog.csdn.net/faith_girl/article/details/122704621)
 
 ### 2. **database** 
 
@@ -214,7 +248,6 @@ some topics you should know  as a full-stack enginner !
       
    - 基础  
      [常用命令](./docs/linux常用命令.docx)  
-     [CentOS6.5将shell脚本设置为服务和开机启动的方法](https://blog.csdn.net/e_wsq/article/details/79885180)
 
 ### 4. **git**   
       
@@ -230,6 +263,7 @@ some topics you should know  as a full-stack enginner !
 
 ## 面试
   + [总结](https://juejin.cn/post/6844904080142237703#heading-4)  
+  + [百度面试题](https://zhuanlan.zhihu.com/p/496562294)
 
 ## 其他  
 + 工具网站  
