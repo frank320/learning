@@ -45,3 +45,32 @@ function deepClone(data) {
 
   return data;
 }
+
+
+
+function reactive(obj) {
+
+  const handle = {
+    get(target, key) {
+      console.log(target)
+      
+      return Reflect.get(target, key)
+      
+    },
+    set(target, key, val) {
+      
+    }
+  }
+
+  return new Proxy(obj, handle);
+  
+}
+const foo = reactive({
+  name: 'test',
+  info: {
+    age: 18,
+    job: '前端',
+  }
+})
+
+console.log(foo.info.job)

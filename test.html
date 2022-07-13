@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      text-align: center;
+      width: 50px;
+      height: 80px;
+      border-radius: 10px;
+      background: black;
+      position: absolute;
+      animation: bimg1 2s ease-out forwards, bimg2 2s ease-in forwards;
+      /*ease-out ,和ease-in 顺序不能反*/
+    }
+    .main {
+      width: 30px;
+      height: 10px;
+      background: whitesmoke;
+      margin: 85% auto;
+      border-radius: 2px
+    }
+
+    @keyframes bimg1 {
+      0% {
+        top: 0;
+        transform: rotate(0deg)
+      }
+
+      100% {
+        top: 200px;
+        transform: rotate(-90deg)
+      }
+
+    }
+
+    @keyframes bimg2 {
+      0% {
+        left: 0;
+      }
+
+      100% {
+        left: 400px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+</body>
+
+</html>

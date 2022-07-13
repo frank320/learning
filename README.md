@@ -15,7 +15,7 @@ some topics you should know  as a full-stack enginner !
      [周期总结 v16.3之前](https://www.jianshu.com/p/4784216b8194)  
      [周期总结 v16.3之后](https://mp.weixin.qq.com/s/Lp-pXHdg48d-TV0QsJOcwA)  
      [React.createElement 与 JSX](https://www.jianshu.com/p/42a3ec621e94)  
-     [基本概念](https://mp.weixin.qq.com/s/Q4tVWxACmw1Rd8fQHfC-ow)
+     [基本概念](https://mp.weixin.qq.com/s/Q4tVWxACmw1Rd8fQHfC-ow)  
      
    - react组件间通信  
      [参考](https://www.jianshu.com/p/fb915d9c99c4)
@@ -26,9 +26,8 @@ some topics you should know  as a full-stack enginner !
      vue会遍历data数据对象，使用Object.definedProperty()将每个属性都转换为getter和setter，每个Vue组件实例都有一个对应的watcher实例，在组件初次渲染的时候会记录组件用到了那些数据，当数据发生改变的时候，会触发setter方法，并通知所有依赖这个数据的watcher实例调用update方法去触发组件的compile渲染方法，进行渲染数据。
 
      ```
+ 
 
-    + [react-native浅析](https://www.jianshu.com/p/7e067adaf270)  
-    + [跨平台](https://zhuanlan.zhihu.com/p/441221144)
 
    - react源码分析    
      [小结](https://www.jianshu.com/p/8af5be333b5f)  
@@ -40,7 +39,8 @@ some topics you should know  as a full-stack enginner !
      [hook使用示例](https://juejin.cn/post/6948748617817522206#heading-3) 
      [useCallback和useMemo的区别](https://juejin.cn/post/6844904032113278990)
      [react hooks原理](https://zhuanlan.zhihu.com/p/443264124)  
-     [react单元测试](https://www.jianshu.com/p/56196ca98c5d)
+     [react单元测试 jest +  @testing-library/react](https://www.jianshu.com/p/56196ca98c5d)  
+     [react单元测试](https://zhuanlan.zhihu.com/p/459698860)
 
 
    - react性能优化  
@@ -82,9 +82,8 @@ some topics you should know  as a full-stack enginner !
     [资源加载顺序](https://github.com/laoqiren/web-performance/blob/master/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86/%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD%E9%A1%BA%E5%BA%8F.md)  
     
    - web网站性能优化  
-    [参考](https://www.zhihu.com/question/21658448)  
     [页面性能优化](https://mp.weixin.qq.com/s/DapiwE-AhML-Mm4r0b_sWg)  
-    [React 性能优化 ：包括原理、技巧、Demo、工具使用](https://mp.weixin.qq.com/s/jaWzs2GpPjN6Et6rapMUzA)
+    [web常见性能优化](https://www.jianshu.com/p/3d06fd263be3)
    - css   
     [性能优化](https://www.zhihu.com/question/19886806)  
     [BFC](https://www.cnblogs.com/chen-cong/p/7862832.html)  
@@ -103,7 +102,7 @@ some topics you should know  as a full-stack enginner !
 
    - mobx基础    
      [参考](https://www.jianshu.com/p/505d9d9fe36a)  
-     [redux mobx对比](https://www.jianshu.com/p/c7e06cee4ea6)
+     [redux mobx对比](https://blog.csdn.net/weixin_44369568/article/details/90713881)
 
    - js相关   
      + [js引擎执行过程](http://www.cnblogs.com/chengxs/p/10240163.html)
@@ -121,6 +120,9 @@ some topics you should know  as a full-stack enginner !
      + [实现new运算符](https://blog.csdn.net/MFWSCQ/article/details/106134901)
      + [js继承](https://www.jianshu.com/p/5bae725b9902)
      + [纯函数理解](https://blog.csdn.net/qq_40413670/article/details/112720224)
+     + [ts基础](https://mp.weixin.qq.com/s/Bo3Z8vzFkCvfDJDoKzxr8w)
+     + [ts高级技巧](https://www.jianshu.com/p/0543bd031166)
+     + [react中ts技巧](https://mp.weixin.qq.com/s/MLZQfsdGASCE_QivWn47rg)
   
    - Promise实现  
      [用法](http://es6.ruanyifeng.com/#docs/promise)  
@@ -134,21 +136,26 @@ some topics you should know  as a full-stack enginner !
      [知识点](./docs/算法相关.md)
 
    - webassembly  
-     [WebAssembly实战](https://segmentfault.com/a/1190000008402872)
+     [WebAssembly简介](https://blog.csdn.net/Cool2Feel/article/details/109257000)
      
    - 微前端  
     [EMP微前端解决方案](https://mp.weixin.qq.com/s/l0-uCLFRcBBrs4yTiAvryg)  
     [微前端理解](https://mp.weixin.qq.com/s/UteaepIALm6h7Iv5Kng0zg)  
 
    - react native  
-    [ReactNative原理浅析](https://zhuanlan.zhihu.com/p/81000495)
+    [跨平台RN](https://zhuanlan.zhihu.com/p/441221144)
     
    - web worker  
-    [介绍](https://blog.csdn.net/lqlqlq007/article/details/79824122)  
     [基础](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)  
 
   + [webRtc简介](https://zhuanlan.zhihu.com/p/421503695)
-  + [webRtc总结](https://zhuanlan.zhihu.com/p/432772488)
+
+  + [gatsby框架简介](https://zhuanlan.zhihu.com/p/364018994)
+  + [antd按需加载](https://blog.csdn.net/weixin_34192993/article/details/91425627)
+  + [webGL学习](http://www.hewebgl.com/article/articledir/1)
+  + [three.js学习](http://www.webgl3d.cn/links/videoTutorial.html)
+  + [three.js入门](https://www.jianshu.com/p/ceb2b688b0f2)
+  + [next.js入门](https://blog.csdn.net/weixin_44283145/article/details/109288765)
 ### 2. **webpack**
    
    - webpack优化建议  
@@ -157,6 +164,7 @@ some topics you should know  as a full-stack enginner !
    [React Code-Splitting](https://www.jianshu.com/p/5bb70b2c52c3)
 
    - webpack学习  
+   [webpack执行过程](https://mp.weixin.qq.com/s/pvtrqnRzHyBFOydwnN_4ew)
    [webpack插件原理分析及编写示例](https://mp.weixin.qq.com/s/E1bjaJMC4DAmxfTGyGtXbw)  
    [webpack5新特性](https://www.jb51.net/article/197239.htm)  
    [联邦模块-示例](https://zhuanlan.zhihu.com/p/148869581)  
@@ -229,13 +237,16 @@ some topics you should know  as a full-stack enginner !
      [koa2开发目录结构](https://github.com/ikcamp/koa2-tutorial/tree/master/code)
 
    - 命令行工具  
-     [参考文档s](https://www.sohu.com/a/275486462_495695)  
+     [参考文档](https://www.sohu.com/a/275486462_495695)  
 
    + [graphQL](https://blog.csdn.net/feiyingwang/article/details/113945807)
+   + [graphQL简介学习](https://blog.csdn.net/cunjie3951/article/details/106918584?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-106918584-blog-113945807.pc_relevant_multi_platform_whitelistv1&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-106918584-blog-113945807.pc_relevant_multi_platform_whitelistv1&utm_relevant_index=1)
 
    + [TCP UDP 握手和挥手](https://blog.csdn.net/weixin_44828588/article/details/114886852)
 
    + [cors](https://blog.csdn.net/faith_girl/article/details/122704621)
+   + [commonjs 和 es module区别](https://m.php.cn/article/489621.html)
+   + [rxjs入门](https://www.jianshu.com/p/e83973caada2)
 
 ### 2. **database** 
 
@@ -268,4 +279,4 @@ some topics you should know  as a full-stack enginner !
 ## 其他  
 + 工具网站  
 + [流程图](https://www.processon.com/)  
-+ [时序图](https://sequencediagram.org/index.html#initialData=sequenceDiagram%0Atitle%20%E9%A6%96%E9%A1%B5%EF%BC%8C%E4%B8%AA%E4%BA%BA%E9%A1%B5%E6%97%B6%E5%BA%8F%E5%9B%BE%0A%20%20%20%20actor%20user%0A%20%20%20%20participant%20frontEndHomepage%20%0A%20%20%20%20participant%20frontEndProfilePage%0A%20%20%20%20participant%20backend%0A%0Aactivate%20user%0Auser-%3EfrontEndHomepage%3A%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE%E9%B1%BC%E5%90%A7%E9%A6%96%E9%A1%B5%0Aactivate%20frontEndHomepage%0AfrontEndHomepage-%3Ebackend%3A%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8%E4%BF%A1%E6%81%AF%0Aactivate%20backend%0Abackend--%3E%3EfrontEndHomepage%3A%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8%EF%BC%88%E5%8C%85%E5%90%ABuid)
++ [时序图](https://sequencediagram.org/index.html#initialData=sequenceDiagram%0Atitle%20%E9%A6%96%E9%A1%B5%EF%BC%8C%E4%B8%AA%E4%BA%BA%E9%A1%B5%E6%97%B6%E5%BA%8F%E5%9B%BE%0A%20%20%20%20actor%20user%0A%20%20%20%20participant%20frontEndHomepage%20%0A%20%20%20%20participant%20frontEndProfilePage%0A%20%20%20%20participant%20backend%0A%0Aactivate%20user%0Auser-%3EfrontEndHomepage%3A%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE%E9%B1%BC%E5%90%A7%E9%A6%96%E9%A1%B5%0Aactivate%20frontEndHomepage%0AfrontEndHomepage-%3Ebackend%3A%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8%E4%BF%A1%E6%81%AF%0Aactivate%20backend%0Abackend--%3E%3EfrontEndHomepage%3A%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8%EF%BC%88%E5%8C%85%E5%90%ABuid)`
