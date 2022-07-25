@@ -59,7 +59,7 @@ some topics you should know  as a full-stack enginner !
      [简介](https://www.jianshu.com/p/b9153e4952bb)  
      [为什么我们需要reselect](https://segmentfault.com/a/1190000011936772)
    - react服务端渲染  
-     [详解React服务端渲染](https://www.jb51.net/article/158625.htm)
+     [详解React服务端渲染ssr](https://www.jb51.net/article/158625.htm)
 
    - Express, Koa, Redux中间件的区别  
      [参考](https://www.jianshu.com/p/70fb2405b281)
@@ -71,6 +71,7 @@ some topics you should know  as a full-stack enginner !
    - vue  
      [简史](https://juejin.im/post/5c7c97f6f265da2de7136c59#heading-6)  
      [vue通信](https://blog.csdn.net/jiangjunyuan168/article/details/122640925)  
+     [vue3组件通信](https://blog.csdn.net/snsHL9db69ccu1aIKl9r/article/details/124506851)
      [defineProperty Proxy](https://wenku.baidu.com/view/feb5c51740323968011ca300a6c30c225901f03b.html)
 
    - H5  
@@ -156,6 +157,7 @@ some topics you should know  as a full-stack enginner !
   + [three.js学习](http://www.webgl3d.cn/links/videoTutorial.html)
   + [three.js入门](https://www.jianshu.com/p/ceb2b688b0f2)
   + [next.js入门](https://blog.csdn.net/weixin_44283145/article/details/109288765)
+  + [web性能监控](https://blog.csdn.net/snsHL9db69ccu1aIKl9r/article/details/124506851)
 ### 2. **webpack**
    
    - webpack优化建议  

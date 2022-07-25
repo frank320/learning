@@ -70,3 +70,26 @@ function _reverseList(head) {
 }
 // console.log(reverseList(o))
 console.log(_reverseList(o))
+
+
+
+function r(head) {
+  if (!head || !head.next) {
+    return head;
+
+  }
+  let pre = null;
+  let current = head;
+  let next;
+
+  while (current) {
+    next = current.next;
+
+    current.next = pre;
+    pre = current;
+
+    current = next;
+
+  }
+  return pre;
+}
