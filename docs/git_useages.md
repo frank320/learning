@@ -66,8 +66,9 @@ remotes/origin/dev
 或者
 git fetch origin develop:develop(remote branch)  在本地创建一个develop分支，并且把它和远程develop关联起来。
 
-# mac上bash 自动补全命令 
-+ [link](https://segmentfault.com/a/1190000022075532)
+# mac上bash
++ [补全命令](https://segmentfault.com/a/1190000022075532)
++ [显示分支](https://www.jianshu.com/p/bb2f9df51778)
 
 
 
