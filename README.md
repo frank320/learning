@@ -180,6 +180,9 @@ some topics you should know  as a full-stack enginner !
     [发展](./docs/http_history.md)  
     [https](https://mp.weixin.qq.com/s/geepUXBRFXK6X8Xocp3YPw)
 
+   - auth
+    [auth基础](https://docs.authing.cn/v2/concepts/authentication-vs-authorization.html)
+
    - web缓存  
    [参考](./imgs/web_cache.jpg)
 
