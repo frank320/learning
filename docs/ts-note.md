@@ -1,3 +1,5 @@
+## [参考文档链接](https://wangdoc.com/typescript/generics)
+
 ### unknow
  unknown类型跟any类型的不同之处在于，它不能直接使用。主要有以下几个限制。
 1. 首先，unknown类型的变量，不能直接赋值给其他类型的变量（除了any类型和unknown类型）,这就避免了污染问题。
