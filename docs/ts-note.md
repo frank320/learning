@@ -48,6 +48,49 @@ const arr = [0, 1] as const;
 
 ### interface
 一个接口中最多只能定义一个数值索引。数值索引会约束所有名称为数值的属性。
+interface A {
+  [prop: string]: number;
+  [prop: number]: string; // 报错
+}
+
+interface B {
+  [prop: string]: number;
+  [prop: number]: number; // 正确
+}
+
+### enum
+变量类型如果是字符串 Enum，就不能再赋值为字符串，这跟数值 Enum 不一样。
+enum MyEnum {
+  One = 'One',
+  Two = 'Two',
+}
+
+let s = MyEnum.One;
+s = 'One'; // 报错
+
+字符串 Enum 可以使用联合类型（union）代替。
+
+function move(
+  where:'Up'|'Down'|'Left'|'Right'
+)
+
+enum MyEnum {
+  A = 'a',
+  B = 'b'
+}
+
+// { a: any, b: any }
+type Foo = { [key in MyEnum]: any };
+
+// 'A'|'B'
+type Foo = keyof typeof MyEnum;
+
+如果真的要断言成一个完全无关的类型，也是可以做到的。那就是连续进行两次类型断言，先断言成 unknown 类型或 any 类型，然后再断言为目标类型。因为any类型和unknown类型是所有其他类型的父类型，所以可以作为两种完全无关的类型的中介。
+
+// 或者写成 <T><unknown>expr
+expr as unknown as T
+
+
 
 
 
