@@ -90,6 +90,64 @@ type Foo = keyof typeof MyEnum;
 // 或者写成 <T><unknown>expr
 expr as unknown as T
 
+### namespace
+namespace Utils {
+  function isString(value:any) {
+    return typeof value === 'string';
+  }
+
+  // 正确
+  isString('yes');
+}
+
+Utils.isString('no'); // 报错
+
+如果要在命名空间以外使用内部成员，就必须为该成员加上export前缀，表示对外输出该成员。
+多个同名的 namespace 会自动合并，这一点跟 interface 一样。
+
+### declare
+
+declare class C {
+  // 静态成员
+  public static s0():string;
+  private static s1:string;
+
+  // 属性
+  public a:number;
+  private b:number;
+
+  // 构造函数
+  constructor(arg:number);
+
+  // 方法
+  m(x:number, y:number):number;
+
+  // 存取器
+  get c():number;
+  set c(value:number);
+
+  // 索引签名
+  [index:string]:any;
+}
+
+declare 关键字用来告诉编译器，某个类型是存在的，可以在当前文件中使用, 但不能给出具体值。
+
+下面是另一个例子。一个项目有多个模块，可以在一个模块中，对另一个模块的接口进行类型扩展。
+
+// a.ts
+export interface A {
+  x: number;
+}
+
+// b.ts
+import { A } from './a';
+
+declare module './a' {
+  interface A {
+    y: number;
+  }
+}
+
 
 
 
