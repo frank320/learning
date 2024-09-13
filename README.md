@@ -252,6 +252,7 @@ some topics you should know  as a full-stack enginner !
    + [cors](https://blog.csdn.net/faith_girl/article/details/122704621)
    + [commonjs 和 es module区别](https://m.php.cn/article/489621.html)
    + [rxjs入门](https://www.jianshu.com/p/e83973caada2)
+   + [rxjs入门2](https://rx.js.cool/transformation/concatMap/)
 
 ### 2. **database** 
 
