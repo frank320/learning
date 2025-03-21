@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.6.0",
+    "angular": "^1.8.0",
     "art-template": "^3.1.0",
     "body-parser": "^1.15.2",
     "bootstrap": "^3.3.7",
